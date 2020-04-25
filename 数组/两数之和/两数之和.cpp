@@ -5,22 +5,22 @@ using namespace std;
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-        map<int,int> m;//first´ænumsµÄÖµ second´æµü´úÆ÷ 
-        vector<int> result;//½á¹ûÊý×é 
+        map<int,int> m;//firstå­˜numsçš„å€¼ secondå­˜è¿­ä»£å™¨ 
+        vector<int> result;//ç»“æžœæ•°ç»„ 
         for(int i=0;i<nums.size();++i){
-            if(m.find(nums[i])==m.end()){//Î´ÕÒµ½ 
-                m[target-nums[i]]=i;//m[7]=0;m[2]=1;break;ºóÃæ²»ÓÃÔËÐÐm[-2]=3;m[-6]=4 
+            if(m.find(nums[i])==m.end()){//æœªæ‰¾åˆ° 
+                m[target-nums[i]]=i;//m[7]=0;m[2]=1;break;åŽé¢ä¸ç”¨è¿è¡Œm[-2]=3;m[-6]=4
             }
             else{
-                result.push_back(m[nums[i]]);//m[7]=0 0´æÈëresult 
-                result.push_back(i);//i=1 1´æÈëresult 
-                break;//ÌâÄ¿Ç¿µ÷Ã¿ÖÖÊäÈëÖ»¶ÔÓ¦Ò»¸ö´ð°¸ ËùÒÔbreak½ÚÊ¡¿Õ¼ä 
+                result.push_back(m[nums[i]]);//m[7]=0 0å­˜å…¥result
+                result.push_back(i);//i=1 1å­˜å…¥result  
+                break;//é¢˜ç›®å¼ºè°ƒæ¯ç§è¾“å…¥åªå¯¹åº”ä¸€ä¸ªç­”æ¡ˆ æ‰€ä»¥breakèŠ‚çœç©ºé—´ 
             }
         }
         return result;
     }
 };
-int main(){
+int main(){//æµ‹è¯•ç”¨ä¾‹
 	Solution answer;
 	vector<int> nums={2,7,11,15};
 	int target=9;
