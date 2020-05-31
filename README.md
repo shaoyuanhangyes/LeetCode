@@ -18,7 +18,9 @@
 ### 8(4) 寻找两个正序数组的中位数(Hard)
 [寻找两个正序数组的中位数](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/8.4.%E5%AF%BB%E6%89%BE%E4%B8%A4%E4%B8%AA%E6%AD%A3%E5%BA%8F%E6%95%B0%E7%BB%84%E7%9A%84%E4%B8%AD%E4%BD%8D%E6%95%B0(Hard))
 ### 9(15) 三数之和(Medium)
-[三数之和]()
+[三数之和](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/9.15.%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C(Medium))
+### 10(121) 买卖股票的最佳时机
+[买卖股票的最佳时机](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/10.121.%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA)
 
 ## 字符串
 
