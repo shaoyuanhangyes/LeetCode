@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <queue>
-#include <algorithm>//sort()
+#include <stack>
 using namespace std;
 struct TreeNode{
     int val;
@@ -18,25 +18,25 @@ TreeNode* levelCreateBinaryTree(const vector<int> &nums,int len,int index){//≤„–
     }
     return root;
 }
-void levelOrder(TreeNode *root){//≤„–Ú±È¿˙ “¿øø∂”¡–¿¥ µœ÷
-    queue<TreeNode* > Tree;
-    Tree.push(root);
-    while(!Tree.empty()){
-        TreeNode *pNode = Tree.front();
-        Tree.pop();
-        cout<<pNode->val<<" ";
-        if(pNode->left!=NULL) Tree.push(pNode->left);
-        if(pNode->right!=NULL) Tree.push(pNode->right);
+void PrintMartrix(vector<vector<int>>& res){//¥Ú”°∂˛Œ¨ ˝◊È
+    for(int i=0;i<res.size();++i){
+        cout<<"[";
+        for(int j=0;j<res[i].size();++j){
+            cout<<" "<<res[i][j]<<" ";
+        }
+        cout<<"]"<<endl;
     }
-    cout<<endl;
 }
+vector<int> res;
 class Solution {
 public:
-    int maxDepth(TreeNode* root) {//µ›πÈ…Ó∂»”≈œ»À„∑®
-        if(root==NULL) return 0;
-        int l_len=maxDepth(root->left)+1;
-        int r_len=maxDepth(root->right)+1;
-        return l_len>r_len?l_len:r_len;
+    vector<int> inorderTraversal(TreeNode* root) {
+        if(root!=NULL){
+            inorderTraversal(root->left);
+            res.push_back(root->val);
+            inorderTraversal(root->right);
+        }
+        return res;
     }
 };
 int main(){
@@ -44,7 +44,7 @@ int main(){
     int len=nums.size();
     TreeNode *root=levelCreateBinaryTree(nums,len,0);
     Solution answer;
-    levelOrder(root);
-    cout<<answer.maxDepth(root)<<endl;
+    res=answer.inorderTraversal(root);
+    for(auto x:res) cout<<x<<" ";
     return 0;
 }

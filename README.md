@@ -54,4 +54,8 @@
 ### 4(102) 二叉树的层次遍历
 [二叉树的层次遍历](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/4.102.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%B1%82%E6%AC%A1%E9%81%8D%E5%8E%86)
 ### 5(107) 二叉树的层次遍历Ⅱ
-[二叉树的层次遍历Ⅱ]()
+[二叉树的层次遍历Ⅱ](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/5.107.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%B1%82%E6%AC%A1%E9%81%8D%E5%8E%86%E2%85%A1)
+### 6(94) 二叉树的中序遍历
+[二叉树的中序遍历]()
+### 7(96) 不同的二叉搜索树
+[不同的二叉搜索树]()
