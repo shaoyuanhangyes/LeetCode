@@ -41,7 +41,10 @@
 [反转链表](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E9%93%BE%E8%A1%A8/4.206.%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8)
 ### 5(141) 环形链表
 [环形链表](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E9%93%BE%E8%A1%A8/5.141.%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8)
-
+### 6(19) 删除链表的倒数第N个节点
+[删除链表的倒数第N个节点](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E9%93%BE%E8%A1%A8/6.19.%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E7%9A%84%E5%80%92%E6%95%B0%E7%AC%ACN%E4%B8%AA%E8%8A%82%E7%82%B9)
+### 7(203) 移除链表元素
+[移除链表元素]()
 
 ## 树
 
