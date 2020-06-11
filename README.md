@@ -54,6 +54,11 @@
 ### 11(24) 两两交换链表中的节点(Medium)
 [两两交换链表中的节点](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E9%93%BE%E8%A1%A8/11.24.%E4%B8%A4%E4%B8%A4%E4%BA%A4%E6%8D%A2%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E8%8A%82%E7%82%B9(Medium))
 ### 12(61) 旋转链表(Medium)
+[旋转链表](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E9%93%BE%E8%A1%A8/12.61.%E6%97%8B%E8%BD%AC%E9%93%BE%E8%A1%A8)
+### 13(82) 删除排序链表中的重复元素Ⅱ(Medium)
+[删除排序链表中的重复元素Ⅱ]()
+### 14(86) 分隔链表(Medium)
+[分隔链表]()
 
 ## 树
 
