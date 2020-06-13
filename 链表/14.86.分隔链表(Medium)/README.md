@@ -1,4 +1,4 @@
-### 16(86) 分隔链表
+### 14(86) 分隔链表
 
 ## 描述
 
@@ -29,7 +29,8 @@ Output: 1->2->2->4->3->5
 ```
 
 ## 解题
-### 解题方法一:新建两个新的链表r1 r2 
+
+新建两个新的链表r1 r2 
 r1存放链表head中<x的结点 r2存放链表head中>x的结点
 这里有一个坑 不能直接将p接在r1/r2的后面 否则判断到最后一个元素时如果不满足循环里的if (因为是最后一个元素所以判断完就跳出循环) 循环结束了这个不满足条件的结点会保留在这个链表中
 因此每一次if判断大小后都需要新建一个new ListNode(p->val) 因为在定义结构体的时候使用了初始化`ListNode(int x):val(x),next(NULL){}` 所以可以直接给结点赋值x 而这个结点的next默认设置为NULL 正合我意
@@ -40,6 +41,32 @@ r1存放链表head中<x的结点 r2存放链表head中>x的结点
 内存消耗 :6.9 MB, 在所有 C++ 提交中击败了100.00%的用户
 ```
 ```bash
+#include<iostream>
+#include <vector>
+using namespace std;
+struct ListNode{
+    int val;
+    ListNode *next;
+    ListNode(int x):val(x),next(NULL){}
+};
+ListNode* createNodeList(const vector<int> & vec){//创建链表
+    ListNode* prev = new ListNode(vec[0]);
+    ListNode* prevHead = prev;
+    for (int i = 1; i < vec.size(); i ++) {
+        ListNode* next_node = new ListNode(vec[i]);
+        prev -> next = next_node;
+        prev = next_node;
+    }
+    return prevHead;
+}
+void ShowList(ListNode *l){//遍历链表并显示
+    ListNode *p=l;
+    while(p){
+        cout<<p->val<<" ";
+        p=p->next;
+    }
+    cout<<endl;
+}
 class Solution{
 public:
     ListNode* partition(ListNode* head, int x) {
@@ -66,6 +93,12 @@ public:
         return r1->next;
     }
 };
+int main(){
+    vector<int> nums={1,4,3,2,5,2};
+    ListNode *l1=createNodeList(nums);
+    Solution answer;
+    l1=answer.partition(l1,3);
+    ShowList(l1);
+    return 0;
+}
 ```
-
-解题方法二
