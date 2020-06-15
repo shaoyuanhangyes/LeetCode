@@ -37,6 +37,7 @@ nums2 = [3, 4]
 
 The median is (2 + 3)/2 = 2.5
 ```
+`BitDance` `Amazon` `Microsoft` `Adobe` `Apple` `Google` `Tencent` `FaceBook` `Alibaba` `Yahoo` `Cisco` `HuaWei` `Vivo` `Uber` `iQiyi` `Yahoo` `eBay`
 ## 解题
 ### 变量释义
 对传值过来的有序数组进行分割 分割后数组分为两部分 分割的位置有两种情况 第一种是分割的位置是一个数存在的位置 那么这个数既属于左部分 又属于右部分 第二种是分割的位置是两个数中间

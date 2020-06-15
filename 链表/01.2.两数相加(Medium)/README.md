@@ -27,6 +27,7 @@ Output: 7 -> 0 -> 8
 Explanation: 342 + 465 = 807.
 
 ```
+`BitDance` `Amazon` `Microsoft` `Alibaba` `FaceBook` `Google` `Tencent`  `HuaWei` `JD` `Adobe` `Mi` `Cisco` `VMware` `Baidu` `Uber` `Yahoo` `Intel` `DiDi`
 ## 解题
 ```bash
 #include<iostream>

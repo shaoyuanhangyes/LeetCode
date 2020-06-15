@@ -27,7 +27,7 @@ Input: head = 1->4->3->2->5->2, x = 3
 Output: 1->2->2->4->3->5
 
 ```
-
+`Amazon` `FaceBook` `BitDance` `Microsoft` `Tencent` `Apple` `Adobe` `OPPO` `Yahoo` `Valve`
 ## 解题
 
 新建两个新的链表r1 r2 

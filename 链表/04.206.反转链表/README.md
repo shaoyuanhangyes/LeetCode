@@ -15,6 +15,7 @@ Reverse a singly linked list.
 Input: 1->2->3->4->5->NULL
 Output: 5->4->3->2->1->NULL
 ```
+`BitDance` `Amazon` `Microsoft` `Alibaba` `FaceBook` `Google` `Tencent` `Adobe` `VIVO` `NVDIA` `Mi` `HuaWei` `Cisco` `Yahoo` `Uber` `NetEase` `Visa` `PayPal` `Lyft`
 ## 解题
 ```bash
 #include<iostream>

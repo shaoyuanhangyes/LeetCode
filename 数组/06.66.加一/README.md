@@ -35,6 +35,7 @@ Output: [4,3,2,2]
 Explanation: The array represents the integer 4321.
 
 ```
+`BitDance` `Amazon` `Microsoft` `Adobe` `Apple` `Google` `FaceBook` `Alibaba` `Yahoo` `Cisco` `HuaWei` `JD` `Baidu` `Cisco` `Mi` `DiDi` `Linkedln`
 ## 解题
 
 ```bash

@@ -38,6 +38,7 @@ Output: 0
 Explanation: In this case, no transaction is done, i.e. max profit = 0.
 
 ```
+`BitDance` `Amazon` `Microsoft` `Adobe` `Apple` `Google` `Tencent` `FaceBook` `Alibaba` `Yahoo` `Cisco` `HuaWei`
 ## 解题
 ```bash
 

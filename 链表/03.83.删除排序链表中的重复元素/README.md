@@ -22,6 +22,7 @@ Input: 1->1->2->3->3
 Output: 1->2->3
 
 ```
+`BitDance` `Amazon` `Microsoft` `Alibaba` `FaceBook` `Google` `Tencent` `Adobe` `Uber`  `Baidu`
 ## 解题
 ```bash
 #include<iostream>

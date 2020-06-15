@@ -50,7 +50,7 @@ rotate 3 steps to the right: 0->1->2->NULL
 rotate 4 steps to the right: 2->0->1->NULL
 
 ```
-
+`Linkedln` `BitDance` `Amazon` `Microsoft` `Alibaba` `Adobe` `Apple` `Tencent` `vivo` `Baidu`
 ## 解题
 解题思路为 先用指针p遍历链表求得表长len 顺便将遍历指针p始终放置在链表尾部 与第一个结点head相连 成为环形链表
 再计算移动k个位置的余数remain=k%len

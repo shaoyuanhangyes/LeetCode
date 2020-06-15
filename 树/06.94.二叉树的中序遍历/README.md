@@ -31,6 +31,7 @@ Output: [1,3,2]
 ```
 Follow up: Recursive solution is trivial, could you do it iteratively?
 
+`BitDance` `Amazon` `Microsoft` `Adobe` `Apple` `Google` `Tencent` `FaceBook` `Mi` `HuaWei` `Baidu` `DiDi` `Yahoo` `eBay` `Uber` `NetEase`
 ## 解题
 ### 解法一 递归算法
 ```bash

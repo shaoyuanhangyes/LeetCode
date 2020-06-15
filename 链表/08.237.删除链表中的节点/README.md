@@ -42,6 +42,7 @@ Do not return anything from your function.
 
 ```
 
+`BitDance` `Amazon` `Microsoft` `Alibaba` `Adobe` `Apple` `Google` `FaceBook` `Tencent` `Cisco` `Mi` `HuaWei` `Yahoo` `Riot Games`
 ## 解题
 第一次看题没读懂题目 以为起码得传两个参数
 

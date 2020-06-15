@@ -65,6 +65,7 @@ Output: false
 
 ```
 
+`BitDance` `Amazon` `Microsoft` `Adobe` `Apple` `Google` `Tencent` `FaceBook` `Alibaba` `Yahoo` `Cisco` `HuaWei`
 ## 解题
 ```bash
 #include <iostream>

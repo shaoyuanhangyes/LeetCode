@@ -25,6 +25,8 @@ Input: 1->2->2->1
 Output: true
 ```
 Could you do it in O(n) time and O(1) space?
+
+`BitDance` `Amazon` `Microsoft` `Alibaba` `Adobe` `Apple` `Google` `FaceBook` `Intel` `Uber` `Vmware`  `Mi`
 ## 解题
 ### 解法一 利用栈的特性
 ```bash

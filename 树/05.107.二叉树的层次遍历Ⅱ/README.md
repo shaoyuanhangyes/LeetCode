@@ -40,7 +40,7 @@ return its bottom-up level order traversal as:
   [3]
 ]
 ```
-
+`BitDance` `Amazon` `Microsoft` `Adobe` `Apple` `Google` `Alibaba` `HuaWei` `Mi` `DiDi`
 ## 解题
 此题目是[4.102.二叉树的层次遍历](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/4.102.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%B1%82%E6%AC%A1%E9%81%8D%E5%8E%86)的一种变形
 即 层次遍历后输出的数组是逆序的

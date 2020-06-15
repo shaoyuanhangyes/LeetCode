@@ -81,7 +81,7 @@ for (int i = 0; i < len; i++) {
 }
 
 ```
-
+`BitDance` `Amazon` `Microsoft` `Adobe` `Apple` `Google` `Tencent`
 ## 解题
 ```bash
 #include<iostream>

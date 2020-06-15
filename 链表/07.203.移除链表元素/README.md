@@ -16,6 +16,7 @@ Input:  1->2->6->3->4->5->6, val = 6
 Output: 1->2->3->4->5
 ```
 
+`BitDance` `Amazon` `Microsoft` `Alibaba` `Adobe` `Apple` `Google` `Tencent` `Uber` `Paypal` `HuaWei` `Baidu`
 ## 解题
 ```bash
 #include<iostream>

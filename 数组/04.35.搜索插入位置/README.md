@@ -31,7 +31,7 @@ Output: 4
 Input: [1,3,5,6], 0
 Output: 0
 ```
-
+`BitDance` `Amazon` `Microsoft` `Adobe` `Apple` `Google` `Tencent` `FaceBook` `Alibaba` `Yahoo` `Cisco` `HuaWei` `JD` `Baidu` `Cisco` `Mi` `DiDi` `Uber`
 ## 解题
 ```bash
 #include<iostream>

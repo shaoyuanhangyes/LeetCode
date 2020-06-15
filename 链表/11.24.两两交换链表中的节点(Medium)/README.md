@@ -20,7 +20,7 @@ You may not modify the values in the list's nodes, only nodes itself may be chan
 ```bash
 Given 1->2->3->4, you should return the list as 2->1->4->3.
 ```
-
+`BitDance` `Amazon` `Microsoft` `Alibaba` `Google` `Apple` `FaceBook` `HuaWei` `Adobe` `Uber` `Mi` `iQiyi` `Baidu` `eBay` `NetEase`
 ## 解题
 ```bash
 #include<iostream>

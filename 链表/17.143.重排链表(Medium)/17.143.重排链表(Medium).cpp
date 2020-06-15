@@ -26,30 +26,38 @@ void ShowList(ListNode *l){//±éÀúÊä³öÁ´±í
 }
 class Solution{
 public:
-ListNode* last=NULL;
-ListNode* reverseN(ListNode* head,int n){
-    if(head==NULL||head->next==NULL||n==1) {
-        last=head->next;
-        return head;
+    void reorderList(ListNode *head){
+        if(head==NULL||head->next==NULL) return;
+        ListNode* slow=head;
+        ListNode* fast=head;
+        while(fast&&fast->next){
+            slow=slow->next;
+            fast=fast->next->next;
+        }
+        ListNode* rL=reverse(slow->next);
+        slow->next=NULL;
+        while(rL){
+            ListNode* temp=rL->next;
+            rL->next=head->next;
+            head->next=rL;
+            head=rL->next;
+            rL=temp;
+        }
     }
-    ListNode* res=reverseN(head->next,n-1);
-    head->next->next=head;
-    head->next=last;
-    return res;
-}
-ListNode* reverseBetween(ListNode* head,int m,int n){
-    if(m==1) return reverseN(head,n);
-    head->next=reverseBetween(head->next,m-1,n-1);
-    return head;
-}
+    ListNode* reverse(ListNode* head){
+        if(head==NULL||head->next==NULL) return head;
+        ListNode* res=reverse(head->next);
+        head->next->next=head;
+        head->next=NULL;
+        return res;
+    }
 
 };
 int main(){
-    vector<int> m1={1,2,3,4,5,6,7,8};
+    vector<int> m1={1,2,3,4,5,6,7};
     ListNode *l1=createNodeList(m1);
     Solution answer;
+    answer.reorderList(l1);
     ShowList(l1);
-    ListNode *l2=answer.reverseBetween(l1,2,4);
-    ShowList(l2);
     return 0;
 }

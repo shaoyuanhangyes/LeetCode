@@ -31,9 +31,9 @@ nums2 = [2,5,6],       n = 3
 Output: [1,2,2,3,5,6]
 
 ```
+`BitDance` `Amazon` `Microsoft` `Adobe` `Apple` `Google` `Tencent` `FaceBook` `Alibaba` `Yahoo` `Cisco` `HuaWei` `JD` `Baidu` `Cisco` `Mi` `DiDi` `Linkedln`
 ## 解题
 ```bash
-
 #include<iostream>
 #include<vector>
 using namespace std;

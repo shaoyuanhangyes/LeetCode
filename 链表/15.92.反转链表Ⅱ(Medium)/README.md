@@ -28,6 +28,7 @@ Output: 1->4->3->2->5->NULL
 
 ```
 
+`Amazon` `FaceBook` `BitDance` `Microsoft` `vivo` `Alibaba` `Tencent` `Apple` `Adobe` `Google` `Uber` `iQiyi` `HuaWei` `Baidu`
 ## 解题
 
 ### 第一次提交的屎一样的代码 但是通过了

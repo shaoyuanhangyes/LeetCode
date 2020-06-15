@@ -41,6 +41,7 @@ The number of nodes in the given list will be between 1 and 100.
 
 ```
 
+`BitDance` `Amazon` `Microsoft` `Alibaba` `Adobe` `Apple` `Cisco` `Tencent` `Uber` `JD`
 ## 解题
 没有使用快慢指针 提交后内存和时间都是双百 快慢指针空间上会有损耗
 ```bash

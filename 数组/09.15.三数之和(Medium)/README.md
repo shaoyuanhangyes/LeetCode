@@ -33,6 +33,7 @@ A solution set is:
 ]
 
 ```
+`BitDance` `Amazon` `Microsoft` `Adobe` `Apple` `Google` `Tencent` `FaceBook` `Alibaba` `Yahoo` `Cisco` `HuaWei` `IBM` `Uber` `Yahoo` `NetEase` `Mi` `Baidu`
 ## 解题
 ```bash
 #include <iostream>

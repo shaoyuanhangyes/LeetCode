@@ -38,6 +38,7 @@ C 可以放在 D (500) 和 M (1000) 的左边，来表示 400 和 900。
 输出: 1994
 解释: M = 1000, CM = 900, XC = 90, IV = 4.
 ```
+`BitDance` `Amazon` `Microsoft` `Adobe` `Google` `Tencent` `FaceBook` `Alibaba` `Yahoo` `Cisco` `HuaWei` `JD` `Baidu` `Cisco` `Mi` `DiDi` `Linkedln` `Uber` `Baidu` `Riot Games` `360`
 ## 解题
 ```bash
 

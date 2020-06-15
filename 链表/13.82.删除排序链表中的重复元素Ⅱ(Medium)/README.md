@@ -31,7 +31,7 @@ Input: 1->1->1->2->3
 Output: 2->3
 
 ```
-
+`BitDance` `Google` `Amazon` `Apple` `SAP` `Adobe` `Microsoft` `Tencent` `Mi` `Alibaba` `Paypal` `Yahoo` `Baidu`
 ## 解题
 为处理第一个结点就是重复结点 为链表head添加一个头结点prev
 指针a指向prev 指针b指向prev->next

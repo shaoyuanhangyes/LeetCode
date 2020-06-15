@@ -20,6 +20,8 @@ After removing the second node from the end, the linked list becomes 1->2->3->5.
 ```
 Given n will always be valid.
 Could you do this in one pass?
+
+`BitDance` `Amazon` `Microsoft` `Alibaba` `Apple` `Google` `Tencent` `Adobe` `Uber` `Paypal` `HuaWei` `Baidu`
 ## 解题
 ### 常规方法(两趟遍历)
 先遍历一趟求表长len 再将指针遍历到需要删除的倒数第n个元素的前一个上 直接删除他的后续节点
