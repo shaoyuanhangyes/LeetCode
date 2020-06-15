@@ -1,12 +1,8 @@
-### 18(147) 对链表进行插入排序(Medium)
+# 19(148) 链表排序(Medium)
 
 ## 描述
 
-插入排序是迭代的，每次只移动一个元素，直到所有元素可以形成一个有序的输出列表。
-
-每次迭代中，插入排序只从输入数据中移除一个待排序的元素，找到它在序列中适当的位置，并将其插入。
-
-重复直到所有输入数据插入完为止。
+在 O(n log n) 时间复杂度和常数级空间复杂度下，对链表进行排序。
 
 ## 示例
 
@@ -22,9 +18,7 @@
 
 ## Description
 
-Insertion sort iterates, consuming one input element each repetition, and growing a sorted output list.
-At each iteration, insertion sort removes one element from the input data, finds the location it belongs within the sorted list, and inserts it there.
-It repeats until no input elements remain.
+Sort a linked list in O(n log n) time using constant space complexity.
 
 ## Example
 
@@ -38,7 +32,7 @@ Output: -1->0->3->4->5
 
 ```
 
-`Amazon` `Microsoft` `Adobe` `Alibaba` `Tencent` `Apple` `VMware` `iQiyi` `Bloomberg`
+`Amazon` `Microsoft` `Adobe` `Alibaba` `FaceBook` `Tencent` `Apple` `VMware` `iQiyi` `Uber``Bloomberg`
 ## 解题
 
 ```bash
