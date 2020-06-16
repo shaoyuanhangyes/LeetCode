@@ -1,4 +1,4 @@
-# 19(148) 链表排序(Medium)
+# 19(148) 排序链表(Medium)
 
 ## 描述
 
@@ -35,79 +35,51 @@ Output: -1->0->3->4->5
 `Amazon` `Microsoft` `Adobe` `Alibaba` `FaceBook` `Tencent` `Apple` `VMware` `iQiyi` `Uber``Bloomberg`
 ## 解题
 
+### 递归归并排序 
+空间复杂度不符合要求 只作为一种解法 
+
+要注意的坑: 首先要探查到链表的中间节点 然后分割 一定会用到快慢双指针 但是快指针走到链表尾部的时候 慢指针指向的元素的确为逻辑上链表元素的中间结点 但当链表元素数量为偶数时 eg:`1 2 3 4` slow会指向3 因此需要作出微调 使用指针back保存slow移动前的位置 然后再对back->next=NULL断链 这样就将链表分割了
+将链表分割后对左右部分进行递归 然后对 左右部分进行比较大小
+新建一个指针p p指向left&right元素比较后较小的那一个 然后较小的left&right向后移 判断完成后p向后移 直到left&right有一个判断尽 循环结束后一定会有一个元素未连接到链表中 若left为NULL 则right指向的需要给连接到链表中 若right为NULL 则left指向的需要给连接到链表中
+
 ```bash
-#include<iostream>
-#include <vector>
-using namespace std;
-struct ListNode{
-    int val;
-    ListNode *next;
-    ListNode(int x):val(x),next(NULL){}
-};
-ListNode* createNodeList(const vector<int> & vec){//后插法创建链表
-    ListNode* prev = new ListNode(vec[0]);//prev始终指向表尾指针
-    ListNode* prevHead = prev;
-    for (int i = 1; i < vec.size(); i ++) {
-        ListNode* next_node = new ListNode(vec[i]);
-        prev -> next = next_node;
-        prev = next_node;
-    }
-    return prevHead;//prevHead始终指向第一个元素
-}
-void ShowList(ListNode *l){//遍历输出链表
-    ListNode *p=l;
-    while(p){
-        cout<<p->val<<" ";
-        p=p->next;
-    }
-    cout<<endl;
-}
-class Solution{
+class Solution {
 public:
-    ListNode* insertionSortList(ListNode* head) {
+    ListNode* sortList(ListNode* head) {
         if(head==NULL||head->next==NULL) return head;
-        ListNode* prevHead=new ListNode(-1);
-        prevHead->next=head;
-        ListNode* now=head->next;//now为进行判断比较大小的基元素
-        ListNode* last=head;//last为now前一个结点 用于连接
-        ListNode* t=prevHead;//t为head前一个结点 用于连接
-        while(now){
-            while(head!=now){
-                if(now->val>head->val){
-                    t=head;
-                    head=head->next;
-                }
-                else{
-                    last->next=now->next;
-                    now->next=head;
-                    t->next=now;
-                    now=last;
-                    break;
-                }
-            }
-            last=now;
-            now=now->next;
-            //归位
-            t=prevHead;
-            head=t->next;
+        ListNode* slow=head;
+        ListNode* fast=head;
+        ListNode* back=slow;
+        while(fast&&fast->next){
+            back=slow;
+            slow=slow->next;
+            fast=fast->next->next;
         }
-        return prevHead->next;
+        ListNode* temp=back->next;
+        back->next=NULL;
+        ListNode* left=sortList(head);
+        ListNode* right=sortList(temp);
+        ListNode* p=new ListNode(-1);
+        ListNode* h=p;
+        while(left&&right){
+            if(left->val>right->val){
+                p->next=right;
+                right=right->next;
+            }
+            else{
+                p->next=left;
+                left=left->next;
+            }
+            p=p->next;
+        }
+        p->next=left?left:right;
+        return h->next;
     }
-
 };
-int main(){
-    vector<int> m1={6,7,1,4,2};
-    ListNode *l1=createNodeList(m1);
-    Solution answer;
-    l1=answer.insertionSortList(l1);
-    ShowList(l1);
-    return 0;
-}
+
 ```
+### 迭代解法
 
-输出结果为
 ```bash
-
-1 2 4 6 7
 
 ```
