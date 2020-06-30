@@ -71,7 +71,7 @@
 [排序链表](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E9%93%BE%E8%A1%A8/19.148.%E6%8E%92%E5%BA%8F%E9%93%BE%E8%A1%A8(Medium))
 ### 20(328) 奇偶链表(Medium)
 [奇偶链表](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E9%93%BE%E8%A1%A8/20.328.%E5%A5%87%E5%81%B6%E9%93%BE%E8%A1%A8(Medium))
-### 24(445) 两数相加Ⅱ(Medium)
+### 21(445) 两数相加Ⅱ(Medium)
 [两数相加Ⅱ]()
 
 
@@ -83,16 +83,20 @@
 [对称二叉树](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/02.101.%E5%AF%B9%E7%A7%B0%E4%BA%8C%E5%8F%89%E6%A0%91)
 ### 3(104) 二叉树的最大深度
 [二叉树的最大深度](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/03.104.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E5%A4%A7%E6%B7%B1%E5%BA%A6)
-### 4(102) 二叉树的层次遍历
-[二叉树的层次遍历](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/04.102.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%B1%82%E6%AC%A1%E9%81%8D%E5%8E%86)
+### 4(102) 二叉树的层次遍历(Medium)
+[二叉树的层次遍历](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/04.102.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%B1%82%E6%AC%A1%E9%81%8D%E5%8E%86(Medium))
 ### 5(107) 二叉树的层次遍历Ⅱ
 [二叉树的层次遍历Ⅱ](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/05.107.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%B1%82%E6%AC%A1%E9%81%8D%E5%8E%86%E2%85%A1)
-### 6(94) 二叉树的中序遍历
-[二叉树的中序遍历](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/06.94.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86)
-### 7(96) 不同的二叉搜索树
-[不同的二叉搜索树](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/07.96.%E4%B8%8D%E5%90%8C%E7%9A%84%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91)
-
-
+### 6(94) 二叉树的中序遍历(Medium)
+[二叉树的中序遍历](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/06.94.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86(Medium))
+### 7(108) 将有序数组转换为二叉搜索树
+[将有序数组转换为二叉搜索树]()
+### 8(144) 二叉树的前序遍历(Medium)
+[二叉树的前序遍历]()
+### 9(145) 二叉树的后序遍历(Hard)
+[二叉树的后序遍历]()
+### 10(96) 不同的二叉搜索树(Medium)
+[不同的二叉搜索树](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/10.96.%E4%B8%8D%E5%90%8C%E7%9A%84%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91(Medium))
 ## 线段树
 
 ### 1(307) 区域和检索 - 数组可修改
