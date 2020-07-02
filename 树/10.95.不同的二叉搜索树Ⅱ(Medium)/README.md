@@ -59,6 +59,37 @@ The above output corresponds to the 5 unique BST's shown below:
 `BitDance` `Amazon` `Microsoft` `Adobe` `Apple` `Google` `Tencent` `Mi` `HuaWei` `VMware`
 ## 解题
 
+ret数组存着每一个二叉搜索树的关系 例如:
 ```bash
-
+    3                ret[0]->val=3;
+   /                 
+  2                  ret[0]->left->val=2;
+ /
+1                    ret[0]->left->left=1;
+```
+```bash
+vector<TreeNode*> createTrees(int start,int end){
+        vector<TreeNode*> ret;
+        if(start>end){
+            ret.push_back(NULL);
+            return ret;
+        }
+        for(int i=start;i<=end;i++){
+            auto leftNode=createTrees(start,i-1);
+            auto rightNode=createTrees(i+1,end);
+            for(auto l:leftNode){
+                for(auto r:rightNode){
+                    TreeNode* node=new TreeNode(i);
+                    node->left=l;
+                    node->right=r;
+                    ret.push_back(node);
+                }
+            }
+        }
+        return ret;
+    }
+    vector<TreeNode*> generateTrees(int n) {
+        if(n==0) return vector<TreeNode*>();
+        return createTrees(1,n);;
+    }
 ```

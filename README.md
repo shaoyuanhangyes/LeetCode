@@ -95,8 +95,10 @@
 [二叉树的前序遍历](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/08.144.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%89%8D%E5%BA%8F%E9%81%8D%E5%8E%86(Medium))
 ### 9(145) 二叉树的后序遍历(Hard)
 [二叉树的后序遍历](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/09.145.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86(Hard))
-### 10(96) 不同的二叉搜索树(Medium)
-[不同的二叉搜索树](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/10.96.%E4%B8%8D%E5%90%8C%E7%9A%84%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91(Medium))
+### 10(95) 不同的二叉搜索树Ⅱ(Medium)
+[不同的二叉搜索树Ⅱ](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/10.95.%E4%B8%8D%E5%90%8C%E7%9A%84%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E2%85%A1(Medium))
+### 11(96) 不同的二叉搜索树(Medium)
+[不同的二叉搜索树](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/11.96.%E4%B8%8D%E5%90%8C%E7%9A%84%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91(Medium))
 ## 线段树
 
 ### 1(307) 区域和检索 - 数组可修改
