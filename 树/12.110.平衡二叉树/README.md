@@ -67,5 +67,18 @@ Given the following tree [1,2,2,3,3,null,null,4,4]:
 ## 解题
 
 ```bash
-
+class Solution {
+public:
+    bool isBalanced(TreeNode* root) {
+        if(root==NULL) return true;
+        int D_Value=abs(maxDepth(root->left)-maxDepth(root->right));//abs()绝对值函数
+        return (D_Value<=1)&&isBalanced(root->left)&&isBalanced(root->right);
+    }
+    int maxDepth(TreeNode* root) {//递归深度优先算法
+        if(root==NULL) return 0;
+        int l_len=maxDepth(root->left)+1;
+        int r_len=maxDepth(root->right)+1;
+        return l_len>r_len?l_len:r_len;
+    }
+};
 ```

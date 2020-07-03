@@ -99,6 +99,10 @@
 [不同的二叉搜索树Ⅱ](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/10.95.%E4%B8%8D%E5%90%8C%E7%9A%84%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E2%85%A1(Medium))
 ### 11(96) 不同的二叉搜索树(Medium)
 [不同的二叉搜索树](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/11.96.%E4%B8%8D%E5%90%8C%E7%9A%84%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91(Medium))
+### 12(110) 平衡二叉树
+[平衡二叉树](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/12.110.%E5%B9%B3%E8%A1%A1%E4%BA%8C%E5%8F%89%E6%A0%91)
+### 13(111) 二叉树的最小深度
+[二叉树的最小深度]()
 ## 线段树
 
 ### 1(307) 区域和检索 - 数组可修改
