@@ -54,20 +54,43 @@ Output:
 ```
 `BitDance` `Amazon` `Microsoft` `Adobe` `Apple` `Google` `Tencent` `Mi` `HuaWei` `VMware`
 ## 解题
-
+### 递归解法
 ```bash
 class Solution {
 public:
-    bool isBalanced(TreeNode* root) {
-        if(root==NULL) return true;
-        int D_Value=abs(maxDepth(root->left)-maxDepth(root->right));//abs()绝对值函数
-        return (D_Value<=1)&&isBalanced(root->left)&&isBalanced(root->right);
+    TreeNode* invertTree(TreeNode* root) {
+        if(root==NULL) return NULL;
+        root->left=invertTree(root->left);
+        root->right=invertTree(root->right);
+        /*swap(root->left,root->right)*/
+        TreeNode* node=root->left;
+        root->left=root->right;
+        root->right=node;
+        /*交换左右子树*/
+        return root;
     }
-    int maxDepth(TreeNode* root) {//递归深度优先算法
-        if(root==NULL) return 0;
-        int l_len=maxDepth(root->left)+1;
-        int r_len=maxDepth(root->right)+1;
-        return l_len>r_len?l_len:r_len;
+};
+```
+### 栈迭代解法
+```bash
+class Solution {
+public:
+    TreeNode* invertTree(TreeNode* root){
+        if(root==NULL) return NULL;
+        stack<TreeNode*> st;
+        st.push(root);
+        while(st.size()){
+            TreeNode* node=st.top();
+            st.pop();
+
+            TreeNode* temp=node->left;
+            node->left=node->right;
+            node->right=temp;
+
+            if(node->left) st.push(node->left);
+            if(node->right) st.push(node->right);
+        }
+        return root;
     }
 };
 ```
