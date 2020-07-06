@@ -102,10 +102,13 @@
 ### 12(110) 平衡二叉树
 [平衡二叉树](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/12.110.%E5%B9%B3%E8%A1%A1%E4%BA%8C%E5%8F%89%E6%A0%91)
 ### 13(111) 二叉树的最小深度
-[二叉树的最小深度]()
+[二叉树的最小深度](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/13.111.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E5%B0%8F%E6%B7%B1%E5%BA%A6)
 ### 14(226) 翻转二叉树
-[翻转二叉树]()
+[翻转二叉树](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/14.226.%E7%BF%BB%E8%BD%AC%E4%BA%8C%E5%8F%89%E6%A0%91)
 ### 15(112) 路径总和
+[路径总和](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/15.112.%E8%B7%AF%E5%BE%84%E6%80%BB%E5%92%8C)
+### 16(98) 验证二叉搜索树
+[验证二叉搜索树]()
 ## 线段树
 
 ### 1(307) 区域和检索 - 数组可修改
