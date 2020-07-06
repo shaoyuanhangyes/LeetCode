@@ -107,8 +107,10 @@
 [翻转二叉树](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/14.226.%E7%BF%BB%E8%BD%AC%E4%BA%8C%E5%8F%89%E6%A0%91)
 ### 15(112) 路径总和
 [路径总和](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/15.112.%E8%B7%AF%E5%BE%84%E6%80%BB%E5%92%8C)
-### 16(98) 验证二叉搜索树
+### 16(98) 验证二叉搜索树(Medium)
 [验证二叉搜索树]()
+### 17(105) 从前序与中序遍历序列构造二叉树(Medium)
+[从前序与中序遍历序列构造二叉树]()
 ## 线段树
 
 ### 1(307) 区域和检索 - 数组可修改
