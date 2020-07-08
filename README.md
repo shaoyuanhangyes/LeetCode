@@ -112,9 +112,13 @@
 ### 17(105) 从前序与中序遍历序列构造二叉树(Medium)
 [从前序与中序遍历序列构造二叉树](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/17.105.%20%E4%BB%8E%E5%89%8D%E5%BA%8F%E4%B8%8E%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86%E5%BA%8F%E5%88%97%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91(Medium))
 ### 18(106) 从中序与后序遍历序列构造二叉树(Medium)
-[从中序与后序遍历序列构造二叉树]()
+[从中序与后序遍历序列构造二叉树](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/18.106.%E4%BB%8E%E4%B8%AD%E5%BA%8F%E4%B8%8E%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86%E5%BA%8F%E5%88%97%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91(Medium))
 ### 19(701) 二叉搜索树中的插入操作(Medium)
-[二叉搜索树中的插入操作]()
+[二叉搜索树中的插入操作](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/19.701.%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E4%B8%AD%E7%9A%84%E6%8F%92%E5%85%A5%E6%93%8D%E4%BD%9C(Medium))
+### 20(222) 完全二叉树的节点个数(Medium)
+[完全二叉树的节点个数]()
+
+
 ## 线段树
 
 ### 1(307) 区域和检索 - 数组可修改

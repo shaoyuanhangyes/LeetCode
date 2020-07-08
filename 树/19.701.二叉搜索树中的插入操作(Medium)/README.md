@@ -86,13 +86,62 @@ It's guaranteed that val does not exist in the original BST.
 
 ## 解题
 
+### 递归解法
 ```bash
 
 class Solution {
 public:
     TreeNode* insertIntoBST(TreeNode* root, int val) {
-        
+        if(root==NULL) return new TreeNode(val);
+        if(val<root->val) root->left=insertIntoBST(root->left,val);
+        if(val>root->val) root->right=insertIntoBST(root->right,val);
+        return root;
     }
 };
 
 ```
+#### 复杂度分析
+1. 时间复杂度: O(H) H为Tree的高度 平均情况<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline-block"><mi>l</mi><mi>o</mi><msub><mi>g</mi><mn>2</mn></msub><mi>N</mi></math> 最坏情况O(N)
+2. 空间复杂度: 平均情况下O(H) 最坏情况O(N) 是在递归过程中堆栈使用的空间
+
+复杂度中`最坏的情况`就是二叉树高度为二叉树结点数量的时候 即
+```
+        5
+       /   
+      2     
+     /   
+    1  
+   /
+  4 
+```
+要插入的元素需要遍历到最深才能插入
+
+### 迭代解法
+
+```bash
+TreeNode* insertIntoBST(TreeNode* root,int val){
+        TreeNode* node=root;
+        while(node!=NULL){
+            if(val>node->val){
+                if(node->right==NULL){
+                    node->right=new TreeNode(val);
+                    return root;
+                }
+                else node=node->right;
+            }
+            else{
+                if(node->left==NULL){
+                    node->left=new TreeNode(val);
+                    return root;
+                }
+                else node=node->left;
+            }
+        }
+        return new TreeNode(val);
+    }
+```
+
+#### 复杂度分析
+
+1. 时间复杂度: O(H) H为Tree的高度 平均情况<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline-block"><mi>l</mi><mi>o</mi><msub><mi>g</mi><mn>2</mn></msub><mi>N</mi></math> 最坏情况O(N)
+2. 空间复杂度: O(1)
