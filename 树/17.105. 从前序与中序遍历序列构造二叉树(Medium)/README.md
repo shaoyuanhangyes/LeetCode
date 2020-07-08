@@ -57,8 +57,27 @@ Return the following binary tree:
 class Solution {
 public:
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
-        
-    }
+        if(preorder.empty()) return NULL;
+        TreeNode* root=new TreeNode(preorder[0]);
+        vector<int> preorder_left, inorder_left, preorder_right, inorder_right;
+        int i;
+        for(i=0;i<inorder.size();++i){
+            if(inorder[i]==root->val) break;
+            inorder_left.push_back(inorder[i]);
+        }//中序遍历根结点的左子树存入inorder_left
+        for(++i;i<inorder.size();++i){
+            inorder_right.push_back(inorder[i]);
+        }//中序遍历根结点的右子树存入inorder_right
+        for(int j=1;j<preorder.size();++j){
+            //根据中序遍历左子树的长度来确定前序遍历左子树存入preorder_left
+            if(j<=inorder_left.size()) preorder_left.push_back(preorder[j]);
+                //前序遍历剩下的为右子树 存入前序遍历右子树序列preorder_right
+            else preorder_right.push_back(preorder[j]);
+        }
+        root->left=buildTree(preorder_left,inorder_left);
+        root->right=buildTree(preorder_right,inorder_right);
+        return root;
+   }
 };
 
 ```

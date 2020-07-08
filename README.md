@@ -108,9 +108,13 @@
 ### 15(112) 路径总和
 [路径总和](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/15.112.%E8%B7%AF%E5%BE%84%E6%80%BB%E5%92%8C)
 ### 16(98) 验证二叉搜索树(Medium)
-[验证二叉搜索树]()
+[验证二叉搜索树](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/16.98.%E9%AA%8C%E8%AF%81%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91(Medium))
 ### 17(105) 从前序与中序遍历序列构造二叉树(Medium)
-[从前序与中序遍历序列构造二叉树]()
+[从前序与中序遍历序列构造二叉树](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/17.105.%20%E4%BB%8E%E5%89%8D%E5%BA%8F%E4%B8%8E%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86%E5%BA%8F%E5%88%97%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91(Medium))
+### 18(106) 从中序与后序遍历序列构造二叉树(Medium)
+[从中序与后序遍历序列构造二叉树]()
+### 19(701) 二叉搜索树中的插入操作(Medium)
+[二叉搜索树中的插入操作]()
 ## 线段树
 
 ### 1(307) 区域和检索 - 数组可修改
