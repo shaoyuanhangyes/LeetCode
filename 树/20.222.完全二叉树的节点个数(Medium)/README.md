@@ -49,11 +49,26 @@ Output: 6
 
 ## 解题
 
+利用栈进行深度优先遍历 count计数器记录入栈的次数就是元素的个数
 ```bash
 class Solution {
 public:
     int countNodes(TreeNode* root) {
-
+        if(root==NULL) return 0;
+        TreeNode* node=root;
+        stack<TreeNode*> st;
+        int count=0;
+        while(!st.empty()||node){
+            while(node){
+                count++;
+                st.push(node);
+                node=node->left;
+            }
+            node=st.top();
+            st.pop();
+            node=node->right;
+        }
+        return count;
     }
 };
 ```
