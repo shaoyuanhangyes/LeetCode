@@ -116,7 +116,13 @@
 ### 19(701) 二叉搜索树中的插入操作(Medium)
 [二叉搜索树中的插入操作](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/19.701.%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E4%B8%AD%E7%9A%84%E6%8F%92%E5%85%A5%E6%93%8D%E4%BD%9C(Medium))
 ### 20(222) 完全二叉树的节点个数(Medium)
-[完全二叉树的节点个数]()
+[完全二叉树的节点个数](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/20.222.%E5%AE%8C%E5%85%A8%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E8%8A%82%E7%82%B9%E4%B8%AA%E6%95%B0(Medium))
+### 21(114) 二叉树展开为链表(Medium)
+[二叉树展开为链表]()
+### 22(257) 二叉树的所有路径
+[二叉树的所有路径]()
+### 23(297) 二叉树的序列化与反序列化(Hard)
+[二叉树的序列化与反序列化]()
 
 
 ## 线段树
