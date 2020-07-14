@@ -123,7 +123,10 @@
 [二叉树的所有路径](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/22.257.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%89%80%E6%9C%89%E8%B7%AF%E5%BE%84)
 ### 23(297) 二叉树的序列化与反序列化(Hard)
 [二叉树的序列化与反序列化](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/23.297.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%BA%8F%E5%88%97%E5%8C%96%E4%B8%8E%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96(Hard))
-
+### 24(617) 合并二叉树
+[合并二叉树]()
+### 25(129) 求根到叶子节点数字之和(Medium)
+[求根到叶子节点数字之和]()
 
 ## 线段树
 
