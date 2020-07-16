@@ -37,6 +37,40 @@ Output: 7 -> 8 -> 0 -> 7
     
 ## 解题
 
+利用栈进行迭代 栈空了还要继续求和的时候就赋予0继续进行求和
 ```bash
-
+class Solution {
+public:
+    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
+        stack<ListNode*> s1,s2;
+        while(l1){
+            s1.push(l1);
+            l1=l1->next;
+        }
+        while(l2){
+            s2.push(l2);
+            l2=l2->next;
+        }
+        int sum=0;
+        int carry=0;
+        ListNode* res=new ListNode(-1);
+        ListNode* temp=NULL;
+        while(!s1.empty()||!s2.empty()||carry!=0){
+            if(s1.empty()) l1=new ListNode(0);
+            else {
+                l1=s1.top();s1.pop();
+            }
+            if(s2.empty()) l2=new ListNode(0);
+            else{
+                l2=s2.top();s2.pop();
+            }
+            sum=(l1->val+l2->val+carry)%10;
+            carry=(l1->val+l2->val+carry)/10;
+            temp=new ListNode(sum);
+            temp->next=res->next;
+            res->next=temp;
+        }
+        return res->next;
+    }
+};
 ```
