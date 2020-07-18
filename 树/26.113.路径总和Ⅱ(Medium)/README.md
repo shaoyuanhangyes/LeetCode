@@ -60,10 +60,35 @@ Return:
 ## 解题
 
 ```bash
-class Solution {
+class Solution{
 public:
-    vector<vector<int>> pathSum(TreeNode* root, int sum) {
-        
+    vector<vector<int>> pathSum(TreeNode* root,int sum){
+        vector<vector<int>> res;
+        vector<int> temp;
+        if(root==NULL) return res;
+        stack<TreeNode*> st;
+        TreeNode* prev=NULL;
+        while(!st.empty()||root){
+            while(root){
+                st.push(root);
+                sum-=root->val;
+                temp.push_back(root->val);
+                root=root->left;
+            }
+            root=st.top();
+            if(!root->left&&!root->right&&sum==0){
+                res.push_back(temp);
+            }
+            if(!root->right||root->right==prev){
+                st.pop();
+                sum+=root->val;
+                temp.pop_back();
+                prev=root;
+                root=NULL;//回到root重新获取栈顶元素
+            }
+            else root=root->right;
+        }
+        return res;
     }
 };
 ```

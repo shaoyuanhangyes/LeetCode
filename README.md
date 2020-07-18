@@ -74,7 +74,7 @@
 ### 21(445) 两数相加Ⅱ(Medium)
 [两数相加Ⅱ](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E9%93%BE%E8%A1%A8/21.445.%E4%B8%A4%E6%95%B0%E7%9B%B8%E5%8A%A0%E2%85%A1(Medium))
 ### 22(23) 合并K个排序链表(Hard)
-[合并K个排序链表]()
+[合并K个排序链表](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E9%93%BE%E8%A1%A8/22.23.%E5%90%88%E5%B9%B6K%E4%B8%AA%E6%8E%92%E5%BA%8F%E9%93%BE%E8%A1%A8(Hard))
 
 ## 树
 
@@ -135,7 +135,7 @@
 ## 堆
 
 ### 1(23)合并K个排序链表(Hard)
-[合并K个排序链表]()
+[合并K个排序链表](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E5%A0%86/01.23.%E5%90%88%E5%B9%B6K%E4%B8%AA%E6%8E%92%E5%BA%8F%E9%93%BE%E8%A1%A8(Hard))
 
 ## 线段树
 
