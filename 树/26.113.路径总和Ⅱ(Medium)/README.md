@@ -59,7 +59,7 @@ Return:
 
 ## 解题
 
-```bash
+```c++
 class Solution{
 public:
     vector<vector<int>> pathSum(TreeNode* root,int sum){

@@ -1,4 +1,4 @@
-# 24(445) 两数相加Ⅱ(Medium)
+# 21(445) 两数相加Ⅱ(Medium)
 
 ## 描述
 
@@ -38,7 +38,7 @@ Output: 7 -> 8 -> 0 -> 7
 ## 解题
 
 利用栈进行迭代 栈空了还要继续求和的时候就赋予0继续进行求和
-```bash
+```c++
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {

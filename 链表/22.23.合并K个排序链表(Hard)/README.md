@@ -46,7 +46,7 @@ Output: 1->1->2->3->4->4->5->6
 
 使用了利用合并两个有序链表的解法 对传值的数组进行循环遍历 将res->next与数组内的K个链表依次合并两个有序链表 最后输出
 
-```bash
+```c++
 #include<iostream>
 #include<vector>
 
@@ -130,7 +130,7 @@ int main(){
 
 将K个链表合并为k/2个链表 然后继续合并成k/4个链表 直到链表数变为1 那么这个链表就是最终的有序链表
 
-```bash
+```c++
 ListNode* MergeTwoList(ListNode* L1,ListNode* L2){
         if(!L1||!L2) return L1?L1:L2;
         ListNode* res=new ListNode(-1);
