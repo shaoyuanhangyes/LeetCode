@@ -82,7 +82,7 @@ ListNode* reverseList(ListNode* head) {
 ListNode* last=NULL;
 ListNode* reverseN(ListNode* head,int n){
     if(head==NULL||head->next==NULL||n==1) {
-        last=head->next; //last: 4->5->NULL
+        last=head->next; //last: 4->5->NULL last记录反转的前N个元素断开的位置 1 2 3 4 5 n=2 last就指向3 方便反转后再连接
         return head;
     }
     ListNode* res=reverseN(head->next,n-1);

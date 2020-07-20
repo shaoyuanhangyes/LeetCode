@@ -2,7 +2,7 @@
 
 二叉树刷题C++模版
 
-```bash
+```C++
 
 /*二叉树结构体*/
 struct TreeNode{
@@ -17,7 +17,7 @@ struct TreeNode{
 
 因为二叉树是非线性结构 不易于直接表示 因此采取顺序存储的思想 按照数组的序号对这个数组以层序遍历的方式创建二叉树
 
-```bash
+```C++
 
 TreeNode* createTree(const vector<int> &nums,int len,int index){
     TreeNode *root=NULL;
@@ -39,7 +39,7 @@ int main(){
 
 创建后的二叉树为
 
-```bash
+```C++
 
         0
       /   \
@@ -56,7 +56,7 @@ int main(){
 
 前序遍历(先序遍历) 遍历的次序为 `根 左 右` 
 
-```bash
+```C++
 
         0
       /   \
@@ -73,7 +73,7 @@ int main(){
 前序遍历序列的第一个结点一定是二叉树的根结点
 
 ##### 前序遍历递归代码
-```bash
+```C++
 
 vector<int> res;//必须是全局变量的数组
 vector<int> preorderTraversal(TreeNode* root) {
@@ -97,7 +97,7 @@ int main(){
 ```
 
 ##### 前序遍历迭代代码
-```bash
+```C++
 
 vector<int> preorderTraversal(TreeNode* root) {
 	vector<int> res;
@@ -131,7 +131,7 @@ int main(){
 
 中序遍历 遍历的次序为 `左 根 右` 
 
-```bash
+```C++
 
         0
       /   \
@@ -150,7 +150,7 @@ BST 二叉搜索树 又名二叉排序树 二叉查找树 的中序序列一定�
 
 ##### 中序遍历递归代码
 
-```bash
+```C++
 
 vector<int> res;//必须是全局变量的数组
 vector<int> inorderTraversal(TreeNode* root) {
@@ -168,7 +168,7 @@ vector<int> inorderTraversal(TreeNode* root) {
 
 ##### 中序遍历迭代代码
 
-```bash
+```C++
 
 vector<int> inorderTraversal(TreeNode* root) {//迭代算法
     vector<int> res;
@@ -193,7 +193,7 @@ vector<int> inorderTraversal(TreeNode* root) {//迭代算法
 
 后序遍历 遍历的次序为 `左 右 根`
 
-```bash
+```C++
 
         0
       /   \
@@ -211,7 +211,7 @@ vector<int> inorderTraversal(TreeNode* root) {//迭代算法
 
 ##### 后序遍历递归代码
 
-```bash
+```C++
 
 vector<int> res;
 vector<int> postorderTraversal(TreeNode* root){
@@ -231,7 +231,7 @@ vector<int> postorderTraversal(TreeNode* root){
 
 prev记录已经输出到res数组中的上一个结点 防止出现某一结点有右孩子 右孩子输出后 根据栈回到右孩子的父结点 然后又判断是否有右孩子的死循环 当判断到node->right==prev成立 即父结点的右孩子上一次被访问过 就输出这个父结点
 
-```bash
+```C++
 
 vector<int> postorderTraversal(TreeNode* root){
     vector<int> res;
@@ -261,7 +261,7 @@ vector<int> postorderTraversal(TreeNode* root){
 
 根据前序遍历的思想 将遍历序列规则转换为 `根 右 左` 序列输出到数组后 将整个数组反转过来 就变成了`左 右 根`
 
-```bash
+```C++
 
 vector<int> preorderTraversal(TreeNode* root) {
 	vector<int> res;
@@ -287,7 +287,7 @@ vector<int> preorderTraversal(TreeNode* root) {
 
 层序遍历 每一层元素 按从左到右的顺序逐层输出 
 
-```bash
+```C++
         0
       /   \
     1       2
@@ -304,7 +304,7 @@ vector<int> preorderTraversal(TreeNode* root) {
 
 利用队列进行迭代 返回二维数组 
 
-```bash
+```C++
 
 vector<vector<int>> levelOrder(TreeNode* root) {
     vector<vector<int>> res;
@@ -330,7 +330,7 @@ vector<vector<int>> levelOrder(TreeNode* root) {
 
 打印二维数组的方法
 
-```bash
+```C++
 
 void PrintMartrix(vector<vector<int>>& res){
     for(int i=0;i<res.size();++i){
