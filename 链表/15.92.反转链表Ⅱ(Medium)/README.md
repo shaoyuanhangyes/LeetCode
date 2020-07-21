@@ -66,7 +66,7 @@ ListNode* reverseBetween(ListNode* head, int m, int n) {//1<=m<=n<=len
 ### 使用递归解决
 
 #### 反转整个链表
-```bash
+```C++
 ListNode* reverseList(ListNode* head) {
         if(head==NULL||head->next==NULL) return head;
         ListNode* res=reverseList(head->next);//以{1,2,3,4,5}为例
@@ -78,7 +78,7 @@ ListNode* reverseList(ListNode* head) {
 ```
 ### 反转链表的前N个元素
 
-```bash
+```C++
 ListNode* last=NULL;
 ListNode* reverseN(ListNode* head,int n){
     if(head==NULL||head->next==NULL||n==1) {

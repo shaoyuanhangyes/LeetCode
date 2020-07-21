@@ -42,6 +42,19 @@ Explanation: In this case, no transaction is done, i.e. max profit = 0.
 
 ## 解题
 
+状态转移方程 `dp[i]=max(dp[i−1],prices[i]−min_price)`
 ```bash
-
+class Solution{
+public:
+    int maxProfit(vector<int>& prices){
+        if(prices.size()<=1) return 0;
+        int min_price=prices[0];//买入的最小值
+        int max_profit=0;//最大利润
+        for(int i=1;i<prices.size();++i){
+            max_profit=max(max_profit,prices[i]-min_price);
+            min_price=min(min_price,prices[i]);
+        }
+        return max_profit;
+    }
+};
 ```
