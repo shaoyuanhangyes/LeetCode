@@ -75,12 +75,38 @@ Constraints:
 
 ## 解题
 
-状态转移方程 `dp[i]=max(dp[i−1],prices[i]−min_price)`
+
+### 贪心算法
+
+只要后一天相比前一天能赚钱 贪心者就购入卖出 只注重眼前的利益
+哪怕股票的价格为`[1,2,3,4,5]` 第一天买入第五天卖出 赚取`$4` 贪心者也会 第一天买入第二天卖出 第二天买入第三天卖出......第四天买入 第五天卖出 所赚取的资金为`(2-1)+(3-2)+(4-3)+(5-4)=4` 所赚取的收益是相同的
+
 ```bash
 class Solution {
 public:
-    int maxProfit(vector<int>& prices) {
-        
+    int maxProfit(vector<int>& prices){//贪心算法
+        if(prices.size()<=1) return 0;
+        int max_profit=0;
+        for(int i=1;i<prices.size();++i){
+            max_profit+=max(prices[i]-prices[i-1],0);
+        }
+        return max_profit;
+    }
+};
+```
+
+### 动态规划
+
+状态转移方程 `if(prices[i]>prices[i-1]) dp[i]=dp[i-1]+prices[i]-prices[i-1] else dp[i]=dp[i-1]` 最后`dp[i]`就是累加的利润 也就是`max_profit`
+```C++
+class Solution {
+public:
+    int maxProfit(vector<int>& prices){//动态规划
+        int max_profit=0;
+        for(int i=1;i<prices.size();++i){
+            if(prices[i]>prices[i-1]) max_profit+=prices[i]-prices[i-1];
+        }
+        return max_profit;
     }
 };
 ```

@@ -90,5 +90,27 @@ Therefore, sum = 495 + 491 + 40 = 1026.
 ## 解题
 
 ```bash
-
+class Solution {
+public:
+    int sumNumbers(TreeNode* root) {
+        if(!root) return 0;
+        stack<pair<TreeNode*,string>> st;
+        string sum;
+        int res=0;
+        while(!st.empty()||root){
+            while(root){
+                sum+=to_string(root->val);
+                st.push({root,sum});
+                root=root->left;
+            }
+            pair<TreeNode*,string> temp=st.top();
+            st.pop();
+            root=temp.first;
+            sum=temp.second;
+            if(!root->left&&!root->right) res+=stoi(sum);
+            root=root->right;
+        }
+        return res;
+    }
+};
 ```
