@@ -80,7 +80,7 @@ Constraints:
 
 只要后一天相比前一天能赚钱 贪心者就购入卖出 只注重眼前的利益
 哪怕股票的价格为`[1,2,3,4,5]` 第一天买入第五天卖出 赚取`$4` 贪心者也会 第一天买入第二天卖出 第二天买入第三天卖出......第四天买入 第五天卖出 所赚取的资金为`(2-1)+(3-2)+(4-3)+(5-4)=4` 所赚取的收益是相同的
-
+贪心算法的核心就是max_profit只加正数
 ```bash
 class Solution {
 public:
@@ -95,7 +95,7 @@ public:
 };
 ```
 
-### 动态规划
+### 动态规划1
 
 状态转移方程 `if(prices[i]>prices[i-1]) dp[i]=dp[i-1]+prices[i]-prices[i-1] else dp[i]=dp[i-1]` 最后`dp[i]`就是累加的利润 也就是`max_profit`
 ```C++
@@ -107,6 +107,46 @@ public:
             if(prices[i]>prices[i-1]) max_profit+=prices[i]-prices[i-1];
         }
         return max_profit;
+    }
+};
+```
+
+### 动态规划2
+
+#### step1 定义状态
+`dp[i][j]` 
+第一维i表示处于索引为i的那天能获得的最大值(考虑了之前天数的)利润 
+第二维j表示处于索引为i的那天 是持有股票还是持有现金 0表示持有现金(cash) 1表示持有股票(stock) 持有现金意味着未购买股票 持有股票意味着未售出股票 
+
+#### step2 状态转移方程
+状态从持有现金即`dp[0][0]`开始 最后一天也就是`dp[len-1][0]`也是持有现金 每一天状态可以转移 也可以维持不动
+状态的转移为`cash->stock->cash->stock......->cash`
+```C++
+dp[i][0]=max(dp[i-1][0],prices[i]+dp[i-1][1]);
+dp[i][1]=max(dp[i-1][1],dp[i-1][0]-prices[i]);
+/*调换顺序也可以*/
+```
+#### step3 确定开始
+
+第一天 若什么都不做 `dp[0][0]=0` 若买入股票 暂时收益为负 即`dp[0][1]=-prices[i]`
+
+#### step4 确定终止
+输出`dp[len-1][0]` 因为一定有`dp[len-1][0]>dp[len-1][1]`
+
+```C++
+class Solution {
+public:
+    int maxProfit(vector<int>& prices) {
+        if(prices.size()<=1) return 0;
+        int len=prices.size();
+        vector<vector<int>> dp(len,vector<int> (2));
+        //第二维的0表示cash 1表示stock
+        dp[0][0]=0;dp[0][1]=-prices[0];
+        for(int i=1;i<len;++i){
+            dp[i][0]=max(dp[i-1][0],prices[i]+dp[i-1][1]);
+            dp[i][1]=max(dp[i-1][1],dp[i-1][0]-prices[i]);
+        }
+        return dp[len-1][0];
     }
 };
 ```
