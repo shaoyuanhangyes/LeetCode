@@ -53,12 +53,54 @@ Explanation: Buy on day 2 (price = 2) and sell on day 3 (price = 6), profit = 6-
 
 ## 解题
 
+### 二维动态规划
+
+首先看k的取值 若`k>prices.size()/2` 此题就变成了无限次购买股票 但无限次购买股票也有利润上限 这个上限就可以用贪心算法求得 解法与[买卖股票的最佳时机Ⅱ](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/11.122.%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA%E2%85%A1)一模一样 
+
+若`k<prices.size()/2` 创建dp方程
+
+#### DP方程分析
+
+`dp[i][j]` i表示第k次交易 j=0表示买入股票 j=1表示卖出股票 数组初始化完成后 设置起始条件
+`dp[i][0]` 表示第i次买入 `dp[i][0]=max(dp[i][0],dp[i-1][1]-price)`
+`dp[i][1]` 表示第i次卖出 `dp[i][1]=max(dp[i][1],dp[i][0]+price)`
+
+#### 开始状态
+
+`dp[0][0]`表示第一次买入 所以dp[0][0]=-prices[i] 这里用了c++11的循环形式 所以改写成了`dp[0][0]=-price`
+`dp[0][1]`表示第一次卖出 所以`dp[0][1]=max(dp[0][1],dp[0][0]+price)`
+
+#### 终止状态
+
+最后返回 `dp[k-1][1]` 即第k次的卖出就是所得的最终利润
 ```C++
 
 class Solution {
 public:
-    int maxProfit(int k, vector<int>& prices) {
-
+    int maxProfit_infinite(vector<int>& prices){//解决k相当于无限次 跟Ⅱ一样
+        int max_profit=0;
+        for(int i=1;i<prices.size();++i){
+            if(prices[i]>prices[i-1]) max_profit+=prices[i]-prices[i-1];
+        }
+        return max_profit;
+    }
+    int maxProfit(int k,vector<int>& prices){
+        if(prices.size()<=1||k<1) return 0;
+        int len=prices.size();
+        if(k>len/2) return maxProfit_infinite(prices);
+        int dp[k][2];
+        for(int i=0;i<k;++i) {
+            dp[i][0]=INT_MIN;dp[i][1]=INT_MIN;//全部初始化为INT_MIN
+        }
+        for(int price:prices){
+            dp[0][0]=max(dp[0][0],-price);
+            dp[0][1]=max(dp[0][1],dp[0][0]+price);
+            for(int i=1;i<k;++i){
+                dp[i][0]=max(dp[i][0],dp[i-1][1]-price);
+                dp[i][1]=max(dp[i][1],dp[i][0]+price);
+            }
+        }
+        return dp[k-1][1];
     }
 };
 

@@ -108,3 +108,30 @@ public:
     }
 };
 ```
+
+### 二维动态规划
+
+```C++
+class Solution{
+public:
+    int maxProfit(vector<int>& prices){
+        if(prices.size()<=1) return 0;
+        int len=prices.size();
+        // 5个状态：0-4分别表示 未交易、买入一次、完成交易1次、买入2次、完成交易2次
+        int dp[5];
+        dp[0]=0;         //未卖出过股票
+        dp[1]=-prices[0];//买入一次股票
+        dp[2]=INT_MIN;   //只卖出过一次股票
+        dp[3]=INT_MIN;   //买入两次股票
+        dp[4]=INT_MIN;   //卖出过两次股票
+        for(int i = 1; i < len; i++){
+            dp[0]=0;
+            dp[1]=max(dp[1],dp[0]-prices[i]);
+            dp[2]=max(dp[2],dp[1]+prices[i]);
+            dp[3]=max(dp[3],dp[2]-prices[i]);
+            dp[4]=max(dp[4],dp[3]+prices[i]);
+        }
+        return max(dp[2],dp[4]);
+    }
+};
+```
