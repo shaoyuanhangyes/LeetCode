@@ -1,5 +1,5 @@
 # LeetCode
-解决题目的总数: 64/1722
+解决题目的总数: 65/1722
 ## 数组
 
 ### 1(1) 两数之和
@@ -143,6 +143,10 @@
 [路径总和Ⅱ](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/26.113.%E8%B7%AF%E5%BE%84%E6%80%BB%E5%92%8C%E2%85%A1(Medium))
 ### 27(103) 二叉树的锯齿形层次遍历(Medium)
 [二叉树的锯齿形层次遍历](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/27.103.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%94%AF%E9%BD%BF%E5%BD%A2%E5%B1%82%E6%AC%A1%E9%81%8D%E5%8E%86(Medium))
+### 28(124) 二叉树中的最大路径和(Hard)
+[二叉树中的最大路径和](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/28.124.%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%AD%E7%9A%84%E6%9C%80%E5%A4%A7%E8%B7%AF%E5%BE%84%E5%92%8C(Hard))
+### 29(404) 左叶子之和
+[左叶子之和]()
 
 ## 堆
 
