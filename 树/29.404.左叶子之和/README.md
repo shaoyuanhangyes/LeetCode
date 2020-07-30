@@ -39,6 +39,13 @@ There are two left leaves in the binary tree, with values 9 and 15 respectively.
 
 ## 解题
 
+### 递归解法
+
+递归判断条件:
+ 以root为根节点的树的左子树之和=root的左子树的左叶子之和+root的右子树的左叶子之和
+ 若当前root结点不存在左子树 就返回当前root结点右子树的左叶子之和
+ 若当前root结点的左子树是一个叶子结点 就返回当前root结点左叶子的值+右子树的左叶子之和
+ 若当前root结点不存在 返回0
 ```c++
 class Solution {
 public:
@@ -49,4 +56,9 @@ public:
         return sumOfLeftLeaves(root->left)+sumOfLeftLeaves(root->right);
     }
 };
+```
+
+```
+执行用时：4 ms, 在所有 C++ 提交中击败了88.59%的用户
+内存消耗：13.4 MB, 在所有 C++ 提交中击败了68.29%的用户
 ```
