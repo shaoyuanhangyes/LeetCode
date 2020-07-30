@@ -71,9 +71,23 @@ Output: 42
 
 ```c++
 class Solution {
+private: int res=INT_MIN;
 public:
     int maxPathSum(TreeNode* root) {
-
+        dfs(root);
+        return res;
+    }
+    int dfs(TreeNode* root){
+        if(!root) return 0;
+        int leftMaxPathSum=max(dfs(root->left),0);
+        int rightMaxPathSum=max(dfs(root->right),0);
+        res=max(res,root->val+leftMaxPathSum+rightMaxPathSum);
+        return root->val+max(leftMaxPathSum,rightMaxPathSum);
     }
 };
+```
+
+```
+执行用时：40 ms, 在所有 C++ 提交中击败了91.40%的用户
+内存消耗：28.6 MB, 在所有 C++ 提交中击败了24.10%的用户
 ```
