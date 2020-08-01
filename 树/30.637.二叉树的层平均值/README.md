@@ -50,15 +50,34 @@ The range of node's value is in the range of 32-bit signed integer.
 
 ## 解题
 
+按照层序遍历的思想 在遍历每一层的时候存储元素和 和值除以这一层的元素数量就是平均值 最后存入res数组
 ```C++
 class Solution {
 public:
     vector<double> averageOfLevels(TreeNode* root) {
-
+        vector<double> res;
+        if(!root) return res;
+        TreeNode* node=root;
+        queue<TreeNode*> st;
+        st.push(node);
+        while(!st.empty()){
+            int len=st.size();
+            int temp=len;
+            double sum=0;//必须是double类型 
+            while(len--){
+                node=st.front();st.pop();
+                sum+=node->val;
+                if(node->left) st.push(node->left);
+                if(node->right) st.push(node->right);
+            }
+            res.push_back(sum/temp);
+        }
+        return res;
     }
 };
 ```
 
 ```
-
+执行用时：20 ms, 在所有 C++ 提交中击败了97.60%的用户
+内存消耗：22.7 MB, 在所有 C++ 提交中击败了32.76%的用户
 ```
