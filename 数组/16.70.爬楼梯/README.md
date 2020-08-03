@@ -67,11 +67,33 @@ Constraints:
 
 ### 动态规划
 
+#### 状态分析
+
+1个台阶 f(1)=1种方法 1
+2个台阶 f(2)=2种方法 1+1/2
+3个台阶 f(3)=3种方法 1+1+1/1+2/2+1
+4个台阶 f(4)=5种方法 1+1+1+1/1+1+2/1+2+1/2+1+1/2+2
+......
+n个台阶 f(n)=f(n-1)+f(n-2)种方法 
+
+初始状态 `stairs[0]=1` `stairs[1]=1` 以此类推 `stairs[2]=stairs[0]+stairs[1]` ...... 正确
+终止状态 `stairs[n]`为所求
+
+#### DP代码
 ```C++
 class Solution {
 public:
     int climbStairs(int n) {
-
+        vector<int> stairs(n+1,1);
+        for(int i=2;i<=n;++i){
+            stairs[i]=stairs[i-1]+stairs[i-2];
+        }
+        return stairs[n];
     }
 };
+```
+
+```
+执行用时：0 ms, 在所有 C++ 提交中击败了100.00%的用户
+内存消耗：6.3 MB, 在所有 C++ 提交中击败了12.51%的用户
 ```

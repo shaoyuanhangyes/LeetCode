@@ -1,5 +1,5 @@
 # LeetCode
-解决题目的总数: 66/1732
+解决题目的总数: 70/1737
 ## 数组
 
 ### 1(1) 两数之和
@@ -31,7 +31,9 @@
 ### 14(309) 最佳买卖股票时机含冷冻期(Medium)
 [最佳买卖股票时机含冷冻期](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/14.309.%E6%9C%80%E4%BD%B3%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E6%97%B6%E6%9C%BA%E5%90%AB%E5%86%B7%E5%86%BB%E6%9C%9F(Medium))
 ### 15(343) 整数拆分(Medium)
-[整数拆分]()
+[整数拆分](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/15.343.%E6%95%B4%E6%95%B0%E6%8B%86%E5%88%86(Medium))
+### 16(70) 爬楼梯
+[爬楼梯](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/16.70.%E7%88%AC%E6%A5%BC%E6%A2%AF)
 
 ## 字符串
 
@@ -150,7 +152,7 @@
 ### 29(404) 左叶子之和
 [左叶子之和](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/29.404.%E5%B7%A6%E5%8F%B6%E5%AD%90%E4%B9%8B%E5%92%8C)
 ### 30(637) 二叉树的层平均值
-[二叉树的层平均值]()
+[二叉树的层平均值](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/30.637.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%B1%82%E5%B9%B3%E5%9D%87%E5%80%BC)
 
 
 ## 堆
@@ -166,4 +168,4 @@
 ## 《程序员面试金典》(第六版)
 
 ### 1 面试题 08.03.魔术索引
-[魔术索引]()
+[魔术索引](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E3%80%8A%E7%A8%8B%E5%BA%8F%E5%91%98%E9%9D%A2%E8%AF%95%E9%87%91%E5%85%B8%E3%80%8B(%E7%AC%AC%E5%85%AD%E7%89%88)/%E9%9D%A2%E8%AF%95%E9%A2%98%2008.03.%E9%AD%94%E6%9C%AF%E7%B4%A2%E5%BC%95)
