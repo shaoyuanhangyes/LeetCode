@@ -38,11 +38,44 @@ Explanation: transactions = [buy, sell, cooldown, buy, sell]
 
 ## 解题
 
+### 动态规划
+
+#### DP方程分析
+
+`dp[i][j]` i表示第i-1天 j=0表示持有股票 j=1表示不持有股票 且处于冷却期 j=2表示不持有股票但不处于冷却期
+
+初始条件: `dp[0][0]=-prices[0]` 
+
+状态转移方程: 
+`dp[i][0]=max(dp[i-1][0],dp[i-1][2]-prices[i])` 
+
+`dp[i][1]=dp[i-1][0]+prices[i]` 
+
+`dp[i][2]=max(dp[i-1][1],dp[i-1][2])`
+
+终止条件: `maxProfit=max(dp[n-1][1],dp[n-1][2])`
+
+#### 代码
+
 ```C++
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
-
+        if(prices.size()<=1) return 0;
+        int n=prices.size();
+        int dp[n][3];
+        dp[0][0]=-prices[0];dp[0][1]=0;dp[0][2]=0;
+        for(int i=1;i<n;++i){
+            dp[i][0]=max(dp[i-1][0],dp[i-1][2]-prices[i]);
+            dp[i][1]=dp[i-1][0]+prices[i];
+            dp[i][2]=max(dp[i-1][1],dp[i-1][2]);
+        }
+        return max(dp[n-1][1],dp[n-1][2]);
     }
 };
+```
+
+```
+执行用时：4 ms, 在所有 C++ 提交中击败了88.60%的用户
+内存消耗：11.3 MB, 在所有 C++ 提交中击败了58.74%的用户
 ```
