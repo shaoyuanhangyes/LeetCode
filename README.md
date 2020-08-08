@@ -2,7 +2,24 @@
 
 解决题目的总数: 74/1737
 
-## 数组
+## 算法-动态规划
+
+|题号|名称|English Name|题解|
+|:------:|:------:|:------:|:------:|
+|53|最大子序和|Maximum Subarray|[最大子序和(Easy)](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/05.53.%E6%9C%80%E5%A4%A7%E5%AD%90%E5%BA%8F%E5%92%8C)|
+|70|爬楼梯|Climbing Stairs|[爬楼梯(Easy)](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/16.70.%E7%88%AC%E6%A5%BC%E6%A2%AF)|
+|121|买卖股票的最佳时机|Best Time to Buy and Sell Stock|[买卖股票的最佳时机(Easy)](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/10.121.%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA)|
+|122|买卖股票的最佳时机 Ⅱ|Best Time to Buy and Sell StockⅡ|[买卖股票的最佳时机Ⅱ(Easy)](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/11.122.%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA%E2%85%A1)|
+|123|买卖股票的最佳时机 Ⅲ|Best Time to Buy and Sell StockⅢ|[买卖股票的最佳时机Ⅲ(Hard)](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/12.123.%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA%E2%85%A2(Hard))|
+|188|买卖股票的最佳时机Ⅳ|Best Time to Buy and Sell StockⅣ|[买卖股票的最佳时机Ⅳ(Hard)](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/13.188.%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA%E2%85%A3(Hard))|
+|309|最佳买卖股票时机含冷冻期|Best Time to Buy and Sell Stock with Cooldown|[最佳买卖股票时机含冷冻期(Medium)](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/14.309.%E6%9C%80%E4%BD%B3%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E6%97%B6%E6%9C%BA%E5%90%AB%E5%86%B7%E5%86%BB%E6%9C%9F(Medium))|
+|714|买卖股票的最佳时机含手续费|Best Time to Buy and Sell Stock with Transaction Fee|[买卖股票的最佳时机含手续费(Medium)](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/17.714.%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA%E5%90%AB%E6%89%8B%E7%BB%AD%E8%B4%B9(Medium))|
+|198|打家劫舍|House Robber|[打家劫舍](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/18.198.%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8D)|
+|213|打家劫舍Ⅱ|House Robber Ⅱ|[打家劫舍Ⅱ(Medium)](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/19.213.%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8D%E2%85%A1(Medium))|
+|337|打家劫舍Ⅲ|House Robber Ⅲ|[打家劫舍Ⅲ(Medium)]()|
+
+
+## 数据结构-数组
 
 ### 1(1) 两数之和
 [两数之和](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/01.1.%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C)
@@ -41,17 +58,17 @@
 ### 18(198) 打家劫舍
 [打家劫舍](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/18.198.%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8D)
 ### 19(213) 打家劫舍Ⅱ
-[打家劫舍Ⅱ]()
+[打家劫舍Ⅱ](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/19.213.%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8D%E2%85%A1(Medium))
 
 
-## 字符串
+## 数据结构-字符串
 
 ### 1(13) 罗马数字转整数
 [罗马数字转整数](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E5%AD%97%E7%AC%A6%E4%B8%B2/01.13.%E7%BD%97%E9%A9%AC%E6%95%B0%E5%AD%97%E8%BD%AC%E6%95%B4%E6%95%B0)
 ### 2(3) 无重复字符的最长子串
 [无重复字符的最长子串](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E5%AD%97%E7%AC%A6%E4%B8%B2/02.3.%E6%97%A0%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E7%9A%84%E6%9C%80%E9%95%BF%E5%AD%90%E4%B8%B2)
 
-## 链表
+## 数据结构-链表
 
 ### 1(2) 两数相加(Medium)
 [两数相加](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E9%93%BE%E8%A1%A8/01.2.%E4%B8%A4%E6%95%B0%E7%9B%B8%E5%8A%A0(Medium))
@@ -100,7 +117,7 @@
 ### 23(25) K个一组翻转链表(Hard)
 [K个一组翻转链表](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E9%93%BE%E8%A1%A8/23.25.K%E4%B8%AA%E4%B8%80%E7%BB%84%E7%BF%BB%E8%BD%AC%E9%93%BE%E8%A1%A8(Hard))
 
-## 树
+## 数据结构-树
 
 ### 1(100) 相同的树
 [相同的树](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/01.100.%E7%9B%B8%E5%90%8C%E7%9A%84%E6%A0%91)
@@ -164,18 +181,21 @@
 [二叉树的层平均值](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/30.637.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%B1%82%E5%B9%B3%E5%9D%87%E5%80%BC)
 ### 31(235) 二叉搜索树的最近公共祖先
 [二叉搜索树的最近公共祖先](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/31.235.%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88)
+### 32(337) 打家劫舍Ⅲ(Medium)
+[打家劫舍Ⅲ]()
 
-## 堆
+## 数据结构-堆
 
 ### 1(23)合并K个排序链表(Hard)
 [合并K个排序链表](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E5%A0%86/01.23.%E5%90%88%E5%B9%B6K%E4%B8%AA%E6%8E%92%E5%BA%8F%E9%93%BE%E8%A1%A8(Hard))
 
-## 线段树
+## 数据结构-线段树
 
 ### 1(307) 区域和检索 - 数组可修改
 [区域和检索 - 数组可修改]()
 
-## 《程序员面试金典》(第六版)
+## 书籍-《程序员面试金典》(第六版)
 
 ### 1 面试题 08.03.魔术索引
 [魔术索引](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E3%80%8A%E7%A8%8B%E5%BA%8F%E5%91%98%E9%9D%A2%E8%AF%95%E9%87%91%E5%85%B8%E3%80%8B(%E7%AC%AC%E5%85%AD%E7%89%88)/%E9%9D%A2%E8%AF%95%E9%A2%98%2008.03.%E9%AD%94%E6%9C%AF%E7%B4%A2%E5%BC%95)
+
