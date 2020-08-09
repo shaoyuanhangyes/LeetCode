@@ -16,7 +16,7 @@
 |714|买卖股票的最佳时机含手续费|Best Time to Buy and Sell Stock with Transaction Fee|[买卖股票的最佳时机含手续费(Medium)](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/17.714.%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA%E5%90%AB%E6%89%8B%E7%BB%AD%E8%B4%B9(Medium))|
 |198|打家劫舍|House Robber|[打家劫舍](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/18.198.%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8D)|
 |213|打家劫舍Ⅱ|House Robber Ⅱ|[打家劫舍Ⅱ(Medium)](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/19.213.%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8D%E2%85%A1(Medium))|
-|337|打家劫舍Ⅲ|House Robber Ⅲ|[打家劫舍Ⅲ(Medium)]()|
+|337|打家劫舍Ⅲ|House Robber Ⅲ|[打家劫舍Ⅲ(Medium)](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/32.337.%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8D%E2%85%A2(Medium))|
 
 
 ## 数据结构-数组
@@ -182,7 +182,9 @@
 ### 31(235) 二叉搜索树的最近公共祖先
 [二叉搜索树的最近公共祖先](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/31.235.%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88)
 ### 32(337) 打家劫舍Ⅲ(Medium)
-[打家劫舍Ⅲ]()
+[打家劫舍Ⅲ](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/32.337.%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8D%E2%85%A2(Medium))
+### 33(687) 最长同值路径
+[最长同值路径]()
 
 ## 数据结构-堆
 

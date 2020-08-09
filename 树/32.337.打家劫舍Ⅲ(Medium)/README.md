@@ -77,7 +77,7 @@ Explanation: Maximum amount of money the thief can rob = 4 + 5 = 9.
 
 ### 动态规划
 
-利用无序map来记录偷取值的和 `unordered_map<TreeNode*,int> f,g;
+利用无序map来记录偷取值的和 `unordered_map<TreeNode*,int> f,g;`
 
 `f[root]` 表示选择了root的偷取值最大的和 `g[root]` 表示未选择root的偷取值最大的和
 
