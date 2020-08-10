@@ -184,7 +184,9 @@
 ### 32(337) 打家劫舍Ⅲ(Medium)
 [打家劫舍Ⅲ](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/32.337.%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8D%E2%85%A2(Medium))
 ### 33(687) 最长同值路径
-[最长同值路径]()
+[最长同值路径](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/33.687.%E6%9C%80%E9%95%BF%E5%90%8C%E5%80%BC%E8%B7%AF%E5%BE%84)
+### 34(1448) 统计二叉树中好节点的数目(Meidum)
+[统计二叉树中好节点的数目]()
 
 ## 数据结构-堆
 
