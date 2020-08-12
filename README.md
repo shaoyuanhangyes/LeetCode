@@ -117,7 +117,7 @@
 ### 23(25) K个一组翻转链表(Hard)
 [K个一组翻转链表](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E9%93%BE%E8%A1%A8/23.25.K%E4%B8%AA%E4%B8%80%E7%BB%84%E7%BF%BB%E8%BD%AC%E9%93%BE%E8%A1%A8(Hard))
 ### 24(142) 环形链表Ⅱ(Medium)
-[环形链表Ⅱ]()
+[环形链表Ⅱ](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E9%93%BE%E8%A1%A8/24.142.%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8%E2%85%A1(Medium))
 
 
 ## 数据结构-树
@@ -189,7 +189,9 @@
 ### 33(687) 最长同值路径
 [最长同值路径](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/33.687.%E6%9C%80%E9%95%BF%E5%90%8C%E5%80%BC%E8%B7%AF%E5%BE%84)
 ### 34(1448) 统计二叉树中好节点的数目(Meidum)
-[统计二叉树中好节点的数目]()
+[统计二叉树中好节点的数目](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/34.1448.%E7%BB%9F%E8%AE%A1%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%AD%E5%A5%BD%E8%8A%82%E7%82%B9%E7%9A%84%E6%95%B0%E7%9B%AE(Medium))
+### 35(538) 把二叉搜索树转换为累加树
+[把二叉搜索树转换为累加树]()
 
 ## 数据结构-堆
 
