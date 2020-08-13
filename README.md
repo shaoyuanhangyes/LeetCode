@@ -191,7 +191,7 @@
 ### 34(1448) 统计二叉树中好节点的数目(Meidum)
 [统计二叉树中好节点的数目](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/34.1448.%E7%BB%9F%E8%AE%A1%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%AD%E5%A5%BD%E8%8A%82%E7%82%B9%E7%9A%84%E6%95%B0%E7%9B%AE(Medium))
 ### 35(538) 把二叉搜索树转换为累加树
-[把二叉搜索树转换为累加树]()
+[把二叉搜索树转换为累加树](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/35.538.%E6%8A%8A%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E8%BD%AC%E6%8D%A2%E4%B8%BA%E7%B4%AF%E5%8A%A0%E6%A0%91)
 
 ## 数据结构-堆
 
