@@ -59,7 +59,10 @@
 [打家劫舍](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/18.198.%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8D)
 ### 19(213) 打家劫舍Ⅱ
 [打家劫舍Ⅱ](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/19.213.%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8D%E2%85%A1(Medium))
-
+### 20(169) 多数元素
+[多数元素](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/20.169.%E5%A4%9A%E6%95%B0%E5%85%83%E7%B4%A0)
+### 21(119) 杨辉三角
+[杨辉三角]()
 
 ## 数据结构-字符串
 
