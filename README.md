@@ -61,8 +61,10 @@
 [打家劫舍Ⅱ](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/19.213.%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8D%E2%85%A1(Medium))
 ### 20(169) 多数元素
 [多数元素](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/20.169.%E5%A4%9A%E6%95%B0%E5%85%83%E7%B4%A0)
-### 21(119) 杨辉三角
-[杨辉三角]()
+### 21(118) 杨辉三角
+[杨辉三角](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/21.118.%E6%9D%A8%E8%BE%89%E4%B8%89%E8%A7%92)
+### 22(119) 杨辉三角Ⅱ
+[杨辉三角Ⅱ]()
 
 ## 数据结构-字符串
 
@@ -71,7 +73,7 @@
 ### 2(3) 无重复字符的最长子串
 [无重复字符的最长子串](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E5%AD%97%E7%AC%A6%E4%B8%B2/02.3.%E6%97%A0%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E7%9A%84%E6%9C%80%E9%95%BF%E5%AD%90%E4%B8%B2)
 ### 3(20) 有效的括号
-[有效的括号]()
+[有效的括号](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E5%AD%97%E7%AC%A6%E4%B8%B2/03.%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7)
 
 ## 数据结构-链表
 
