@@ -1,6 +1,6 @@
 # LeetCode
 
-解决题目的总数: 79/1747
+解决题目的总数: 85/1753
 
 ## 算法-动态规划
 
@@ -64,7 +64,9 @@
 ### 21(118) 杨辉三角
 [杨辉三角](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/21.118.%E6%9D%A8%E8%BE%89%E4%B8%89%E8%A7%92)
 ### 22(119) 杨辉三角Ⅱ
-[杨辉三角Ⅱ]()
+[杨辉三角Ⅱ](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/22.119.%E6%9D%A8%E8%BE%89%E4%B8%89%E8%A7%92%E2%85%A1)
+### 23(167) 两数之和Ⅱ-输入有序数组
+[两数之和Ⅱ-输入有序数组]()
 
 ## 数据结构-字符串
 
