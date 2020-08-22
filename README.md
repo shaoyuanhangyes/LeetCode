@@ -72,7 +72,11 @@
 ### 25(74) 搜索二维矩阵(Medium)
 [搜索二维矩阵](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/25.74.%E6%90%9C%E7%B4%A2%E4%BA%8C%E7%BB%B4%E7%9F%A9%E9%98%B5(Medium))
 ### 26(240) 搜索二维矩阵Ⅱ(Medium)
-[搜索二维矩阵Ⅱ]()
+[搜索二维矩阵Ⅱ](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/26.240.%E6%90%9C%E7%B4%A2%E4%BA%8C%E7%BB%B4%E7%9F%A9%E9%98%B5%E2%85%A1(Meidum))
+### 27(189) 旋转数组
+[旋转数组](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/27.189.%E6%97%8B%E8%BD%AC%E6%95%B0%E7%BB%84)
+### 28(217) 存在重复元素
+[存在重复元素]()
 
 ## 数据结构-字符串
 
