@@ -76,7 +76,9 @@
 ### 27(189) 旋转数组
 [旋转数组](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/27.189.%E6%97%8B%E8%BD%AC%E6%95%B0%E7%BB%84)
 ### 28(217) 存在重复元素
-[存在重复元素]()
+[存在重复元素](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/28.217.%E5%AD%98%E5%9C%A8%E9%87%8D%E5%A4%8D%E5%85%83%E7%B4%A0)
+### 29(219) 存在重复元素Ⅱ
+[存在重复元素Ⅱ]()
 
 ## 数据结构-字符串
 
