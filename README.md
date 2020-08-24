@@ -1,6 +1,6 @@
 # LeetCode
 
-解决题目的总数: 88/1753
+解决题目的总数: 92/1753
 
 ## 算法-动态规划
 
@@ -78,7 +78,9 @@
 ### 28(217) 存在重复元素
 [存在重复元素](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/28.217.%E5%AD%98%E5%9C%A8%E9%87%8D%E5%A4%8D%E5%85%83%E7%B4%A0)
 ### 29(219) 存在重复元素Ⅱ
-[存在重复元素Ⅱ]()
+[存在重复元素Ⅱ](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/29.219.%E5%AD%98%E5%9C%A8%E9%87%8D%E5%A4%8D%E5%85%83%E7%B4%A0%E2%85%A1)
+### 30(268) 缺失数字
+[缺失数字]()
 
 ## 数据结构-字符串
 
