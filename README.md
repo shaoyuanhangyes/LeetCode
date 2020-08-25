@@ -80,7 +80,9 @@
 ### 29(219) 存在重复元素Ⅱ
 [存在重复元素Ⅱ](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/29.219.%E5%AD%98%E5%9C%A8%E9%87%8D%E5%A4%8D%E5%85%83%E7%B4%A0%E2%85%A1)
 ### 30(268) 缺失数字
-[缺失数字]()
+[缺失数字](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/30.268.%E7%BC%BA%E5%A4%B1%E6%95%B0%E5%AD%97)
+### 31(283) 移动零
+[移动零]()
 
 ## 数据结构-字符串
 
