@@ -1,6 +1,6 @@
 # LeetCode
 
-解决题目的总数: 93/1753
+解决题目的总数: 95/1753
 
 ## 算法-动态规划
 
@@ -84,7 +84,9 @@
 ### 31(283) 移动零
 [移动零](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/31.283.%E7%A7%BB%E5%8A%A8%E9%9B%B6)
 ### 32(414) 第三大的数
-[第三大的数]()
+[第三大的数](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/32.414.%E7%AC%AC%E4%B8%89%E5%A4%A7%E7%9A%84%E6%95%B0)
+### 33(448) 找到所有数组中消失的数字
+[找到所有数组中消失的数字]()
 
 
 ## 数据结构-字符串
