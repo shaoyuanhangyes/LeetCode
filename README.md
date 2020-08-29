@@ -86,7 +86,9 @@
 ### 32(414) 第三大的数
 [第三大的数](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/32.414.%E7%AC%AC%E4%B8%89%E5%A4%A7%E7%9A%84%E6%95%B0)
 ### 33(448) 找到所有数组中消失的数字
-[找到所有数组中消失的数字]()
+[找到所有数组中消失的数字](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/33.448.%E6%89%BE%E5%88%B0%E6%89%80%E6%9C%89%E6%95%B0%E7%BB%84%E4%B8%AD%E6%B6%88%E5%A4%B1%E7%9A%84%E6%95%B0%E5%AD%97)
+### 34()
+[]()
 
 
 ## 数据结构-字符串
