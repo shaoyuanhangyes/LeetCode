@@ -88,7 +88,9 @@
 ### 33(448) 找到所有数组中消失的数字
 [找到所有数组中消失的数字](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/33.448.%E6%89%BE%E5%88%B0%E6%89%80%E6%9C%89%E6%95%B0%E7%BB%84%E4%B8%AD%E6%B6%88%E5%A4%B1%E7%9A%84%E6%95%B0%E5%AD%97)
 ### 34(42) 接雨水(Hard)
-[接雨水]()
+[接雨水](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/34.42.%E6%8E%A5%E9%9B%A8%E6%B0%B4(Hard))
+### 35(238) 除自身以外数组的乘积(Medium)
+[除自身以外数组的乘积]()
 
 
 ## 数据结构-字符串
