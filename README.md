@@ -1,6 +1,6 @@
 # LeetCode
 
-解决题目的总数: 95/1753
+解决题目的总数: 97/1753
 
 ## 算法-动态规划
 
@@ -90,8 +90,9 @@
 ### 34(42) 接雨水(Hard)
 [接雨水](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/34.42.%E6%8E%A5%E9%9B%A8%E6%B0%B4(Hard))
 ### 35(238) 除自身以外数组的乘积(Medium)
-[除自身以外数组的乘积]()
-
+[除自身以外数组的乘积](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/35.238.%E9%99%A4%E8%87%AA%E8%BA%AB%E4%BB%A5%E5%A4%96%E6%95%B0%E7%BB%84%E7%9A%84%E4%B9%98%E7%A7%AF(Medium))
+### 36(485) 最大连续1的个数
+[最大连续1的个数]()
 
 ## 数据结构-字符串
 
