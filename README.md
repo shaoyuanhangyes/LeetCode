@@ -1,6 +1,6 @@
 # LeetCode
 
-解决题目的总数: 97/1753
+解决题目的总数: 101/1753
 
 ## 算法-动态规划
 
@@ -96,7 +96,9 @@
 ### 37(34) 在排序数组中查找元素的第一个和最后一个位置(Medium)
 [在排序数组中查找元素的第一个和最后一个位置](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/37.34.%E5%9C%A8%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E6%9F%A5%E6%89%BE%E5%85%83%E7%B4%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%92%8C%E6%9C%80%E5%90%8E%E4%B8%80%E4%B8%AA%E4%BD%8D%E7%BD%AE(Medium))
 ### 38(278) 第一个错误的版本
-[第一个错误的版本]()
+[第一个错误的版本](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/38.278.%E7%AC%AC%E4%B8%80%E4%B8%AA%E9%94%99%E8%AF%AF%E7%9A%84%E7%89%88%E6%9C%AC)
+### 39(374) 猜数字大小
+[猜数字大小]()
 
 
 ## 数据结构-字符串
