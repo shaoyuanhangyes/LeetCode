@@ -1,6 +1,6 @@
 # LeetCode
 
-解决题目的总数: 101/1753
+解决题目的总数: 102/1753
 
 ## 算法-动态规划
 
@@ -98,8 +98,9 @@
 ### 38(278) 第一个错误的版本
 [第一个错误的版本](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/38.278.%E7%AC%AC%E4%B8%80%E4%B8%AA%E9%94%99%E8%AF%AF%E7%9A%84%E7%89%88%E6%9C%AC)
 ### 39(374) 猜数字大小
-[猜数字大小]()
-
+[猜数字大小](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/39.374.%E7%8C%9C%E6%95%B0%E5%AD%97%E5%A4%A7%E5%B0%8F)
+### 40(375) 猜数字大小Ⅱ(Medium)
+[猜数字大小Ⅱ]()
 
 ## 数据结构-字符串
 
