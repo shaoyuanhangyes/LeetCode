@@ -100,7 +100,7 @@
 ### 39(374) 猜数字大小
 [猜数字大小](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/39.374.%E7%8C%9C%E6%95%B0%E5%AD%97%E5%A4%A7%E5%B0%8F)
 ### 40(375) 猜数字大小Ⅱ(Medium)
-[猜数字大小Ⅱ]()
+[猜数字大小Ⅱ](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/40.375.%E7%8C%9C%E6%95%B0%E5%AD%97%E5%A4%A7%E5%B0%8F%E2%85%A1(Medium))
 
 ## 数据结构-字符串
 
