@@ -104,8 +104,9 @@
 ### 41(464) 我能赢吗(Medium)
 [我能赢吗]()
 ### 42(877) 石子游戏(Medium)
-[石子游戏]()
-
+[石子游戏](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/42.877.%E7%9F%B3%E5%AD%90%E6%B8%B8%E6%88%8F(Medium))
+### 43(1140) 石子游戏Ⅱ(Medium)
+[石子游戏Ⅱ]()
 
 ## 数据结构-字符串
 
