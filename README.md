@@ -106,7 +106,9 @@
 ### 42(877) 石子游戏(Medium)
 [石子游戏](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/42.877.%E7%9F%B3%E5%AD%90%E6%B8%B8%E6%88%8F(Medium))
 ### 43(1140) 石子游戏Ⅱ(Medium)
-[石子游戏Ⅱ]()
+[石子游戏Ⅱ](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/43.1140.%E7%9F%B3%E5%AD%90%E6%B8%B8%E6%88%8F%E2%85%A1(Medium))
+### 44(1406) 石子游戏Ⅲ(Medium)
+[石子游戏Ⅲ]()
 
 ## 数据结构-字符串
 
