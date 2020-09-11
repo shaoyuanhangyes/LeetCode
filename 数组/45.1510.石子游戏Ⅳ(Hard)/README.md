@@ -1,4 +1,4 @@
-# 44(1406) 石子游戏Ⅲ(Medium)
+# 45(1510) 石子游戏Ⅳ(Hard)
 
 ## 描述
 
@@ -103,6 +103,15 @@ Constraints:
 dp[i]表示还剩下i个石子的时候 Alice是否会赢得比赛 k表示每一次拿取k^2个石子 所以dp[i-k*k]表示剩下i个石子的时 Alice拿走了`k*k`个 然后剩余`i-k*k`个石子的时候 Bob能否赢得比赛 当`dp[i-k*k]`存在k使得`dp[i-k*k]=false` 就可以推出`dp[i]=true`
 
 返回`dp[n]`即可
+
+```bash
+           true  : if(dp[i-k*k]=false) 存在任何一个k使得dp[i-k*k]=false  dp[i]=true
+        /  
+dp[i]=
+        \  
+           false : 不存在k使得dp[i-k*k]=false dp[i]=false
+
+```
 
 ### 代码
 
