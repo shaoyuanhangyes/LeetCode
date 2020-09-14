@@ -82,7 +82,11 @@ dp[i][j] 表示数组stoneValue从序号i到序号j的最优解
 
 sum[p] 表示 前p个元素的值 Therefore `1<=p<=stoneValue.size()` 
 
+k用来分割数组 将序号i - 序号j 分割成 [i,k) U [k,j]
 
+count用来表示序号i - 序号j之间共有几个元素 
+
+最后返回dp[0][size()-1]
 
 ### 代码
 
