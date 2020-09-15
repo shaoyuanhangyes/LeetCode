@@ -1,6 +1,6 @@
 # LeetCode
 
-解决题目的总数: 106/1753
+解决题目的总数: 109/1753
 
 ## 算法-动态规划
 
@@ -115,7 +115,8 @@
 [石子游戏Ⅴ](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/46.1563.%E7%9F%B3%E5%AD%90%E6%B8%B8%E6%88%8F%E2%85%A4(Hard))
 ### 47(674) 最长连续递增序列
 [最长连续递增序列](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/47.674.%E6%9C%80%E9%95%BF%E8%BF%9E%E7%BB%AD%E9%80%92%E5%A2%9E%E5%BA%8F%E5%88%97)
-
+### 48(566) 重塑矩阵
+[重塑矩阵]()
 
 ## 数据结构-字符串
 
