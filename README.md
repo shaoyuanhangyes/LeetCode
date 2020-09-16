@@ -116,7 +116,10 @@
 ### 47(674) 最长连续递增序列
 [最长连续递增序列](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/47.674.%E6%9C%80%E9%95%BF%E8%BF%9E%E7%BB%AD%E9%80%92%E5%A2%9E%E5%BA%8F%E5%88%97)
 ### 48(566) 重塑矩阵
-[重塑矩阵]()
+[重塑矩阵](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/48.566.%E9%87%8D%E5%A1%91%E7%9F%A9%E9%98%B5)
+### 49(867) 转置矩阵
+[转置矩阵]()
+
 
 ## 数据结构-字符串
 
