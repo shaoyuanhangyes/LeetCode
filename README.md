@@ -1,6 +1,6 @@
 # LeetCode
 
-解决题目的总数: 109/1753
+解决题目的总数: 111/1753
 
 ## 算法-动态规划
 
@@ -118,8 +118,9 @@
 ### 48(566) 重塑矩阵
 [重塑矩阵](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/48.566.%E9%87%8D%E5%A1%91%E7%9F%A9%E9%98%B5)
 ### 49(867) 转置矩阵
-[转置矩阵]()
-
+[转置矩阵](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/49.867.%E8%BD%AC%E7%BD%AE%E7%9F%A9%E9%98%B5)
+### 50(977) 有序数组的平方
+[有序数组的平方]()
 
 ## 数据结构-字符串
 
