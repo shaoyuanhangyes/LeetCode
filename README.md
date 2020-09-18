@@ -18,6 +18,10 @@
 |213|打家劫舍Ⅱ|House Robber Ⅱ|[打家劫舍Ⅱ(Medium)](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/19.213.%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8D%E2%85%A1(Medium))|
 |337|打家劫舍Ⅲ|House Robber Ⅲ|[打家劫舍Ⅲ(Medium)](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/32.337.%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8D%E2%85%A2(Medium))|
 
+## 算法-回溯
+|题号|名称|English Name|题解|
+|:------:|:------:|:------:|:------:|
+|46|全排列|Permutations|[全排列]()|
 
 ## 数据结构-数组
 
@@ -120,7 +124,7 @@
 ### 49(867) 转置矩阵
 [转置矩阵](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/49.867.%E8%BD%AC%E7%BD%AE%E7%9F%A9%E9%98%B5)
 ### 50(977) 有序数组的平方
-[有序数组的平方]()
+[有序数组的平方](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/50.977.%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E7%9A%84%E5%B9%B3%E6%96%B9)
 
 ## 数据结构-字符串
 
