@@ -21,7 +21,7 @@
 ## 算法-回溯
 |题号|名称|English Name|题解|
 |:------:|:------:|:------:|:------:|
-|46|全排列|Permutations|[全排列]()|
+|46|全排列|Permutations|[全排列(Medium)](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/51.46.%E5%85%A8%E6%8E%92%E5%88%97(Medium))|
 
 ## 数据结构-数组
 
@@ -125,6 +125,10 @@
 [转置矩阵](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/49.867.%E8%BD%AC%E7%BD%AE%E7%9F%A9%E9%98%B5)
 ### 50(977) 有序数组的平方
 [有序数组的平方](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/50.977.%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E7%9A%84%E5%B9%B3%E6%96%B9)
+### 51(46) 全排列(Medium)
+[全排列](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/51.46.%E5%85%A8%E6%8E%92%E5%88%97(Medium))
+### 52(47) 全排列Ⅱ(Medium)
+[全排列Ⅱ]()
 
 ## 数据结构-字符串
 
