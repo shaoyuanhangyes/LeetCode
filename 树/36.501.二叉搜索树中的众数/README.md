@@ -68,66 +68,106 @@ Follow up: Could you do that without using any extra space? (Assume that the imp
 
 ## 解题
 
-强调二叉搜索树 BST的中序遍历序列是从小到大排列的 此题就应该用到这个特性
+不使用额外空间帮助查找众数 即空间复杂度O(1) 因此需要Morris中序遍历二叉搜索树
 
-累加树中每个节点的值是原来的节点值加上所有大于它的节点值之和 
-
-因此联系到BST的中序遍历序列 累加树的中序遍历序列就是BST的中序遍历序列从后向前相加 
-
-因此此题考查的是BST的逆中序遍历 期间加了一个相加赋值的一块代码
-
-### 代码
-
-#### 递归解法
-
+### Morris中序遍历代码
 ```C++
-class Solution {
-public:
-    int sum=0;
-    TreeNode* convertBST(TreeNode* root) {
-        if(root!=NULL){
-            convertBST(root->right);
-            root->val+=sum;
-            sum=root->val;
-            convertBST(root->left);
-        }
-        return root;
-    }
-};
-
-```
-
-```
-执行用时：72 ms, 在所有 C++ 提交中击败了52.11%的用户
-内存消耗：33.3 MB, 在所有 C++ 提交中击败了70.38%的用户
-```
-
-#### 迭代解法
-
-```C++
-class Solution {
-public:
-    TreeNode* convertBST(TreeNode* root) {
-        if(!root) return NULL;
-        TreeNode* node=root;
-        stack<TreeNode*> st;
-        int sum=0;
-        while(!st.empty()||node){
-            while(node){
-                st.push(node);
-                node=node->right;
+vector<int> Morris_inOrder(TreeNode* root){
+    vector<int> res;
+    if(!root) return res;
+    TreeNode* cur=root;
+    TreeNode* mostright=NULL;
+    while(cur!=NULL){
+        mostright=cur->left;
+        if(mostright!=NULL){
+            while(mostright->right!=NULL&&mostright->right!=cur) mostright=mostright->right;
+            if(mostright->right==NULL){
+                mostright->right=cur;
+                cur=cur->left;
+                continue;
             }
-            node=st.top();st.pop();
-            node->val+=sum;
-            sum=node->val;
-            node=node->left;
+            else{
+                mostright->right=NULL;
+                res.push_back(cur->val);
+            }
         }
-        return root;
+        else res.push_back(cur->val);
+        cur=cur->right;
     }
-};
+    return res;
+}
 ```
 
+只需要在Morris中序遍历序列上进行判断众数即可
+
+### 判断众数的代码片段
+
+使用双指针判断众数 cur向右移动前 pre保存cur移动前的值 
+
+通过比较pre和cur的值是否相等来决定count的值
+
+TreeNode* cur=root;
+TreeNode* pre=NULL;
+int count=0,maxCount=0;
+
+```C++
+    if(pre&&pre->val==cur->val) count++;
+    else count=1;
+    if(count>maxCount){
+        maxCount=count;
+        res.clear();
+        res.push_back(cur->val);
+    }
+    else if(count==maxCount) res.push_back(cur->val);
 ```
-执行用时：76 ms, 在所有 C++ 提交中击败了36.85%的用户
-内存消耗：33.6 MB, 在所有 C++ 提交中击败了18.85%的用户
+
+### 解题代码
+
+```C++
+class Solution {
+public:
+    vector<int> findMode(TreeNode* root) {
+        vector<int> res;
+        if(!root) return res;
+        TreeNode* cur=root;
+        TreeNode* mostright=NULL;
+        TreeNode* pre=NULL;
+        int count=0,maxCount=0;
+        while(cur!=NULL){
+            mostright=cur->left;
+            if(mostright!=NULL){
+                while(mostright->right!=NULL&&mostright->right!=cur) mostright=mostright->right;
+                if(mostright->right==NULL){
+                    mostright->right=cur;
+                    cur=cur->left;
+                    continue;
+                }
+                else{
+                    if(pre&&pre->val==cur->val) count++;
+                    else count=1;
+                    if(count>maxCount){
+                        maxCount=count;
+                        res.clear();
+                        res.push_back(cur->val);
+                    }
+                    else if(count==maxCount) res.push_back(cur->val);
+                    mostright->right=NULL;
+                }
+            }
+            else{//左子树为空
+                if(pre&&pre->val==cur->val) count++;
+                else count=1;
+                if(count>maxCount){
+                    maxCount=count;
+                    res.clear();
+                    res.push_back(cur->val);
+                }
+                else if(count==maxCount) res.push_back(cur->val);
+            }
+            pre=cur;
+            cur=cur->right;
+        }
+        return res;
+    }
+};
 ```
