@@ -135,7 +135,8 @@
 [螺旋矩阵Ⅱ](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/54.59.%E8%9E%BA%E6%97%8B%E7%9F%A9%E9%98%B5%E2%85%A1(Medium))
 ### 55(766) 托普利茨矩阵
 [托普利茨矩阵](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/55.766.%E6%89%98%E6%99%AE%E5%88%A9%E8%8C%A8%E7%9F%A9%E9%98%B5)
-
+### 56(840) 矩阵中的幻方(Medium)
+[矩阵中的幻方]()
 
 ## 数据结构-字符串
 
