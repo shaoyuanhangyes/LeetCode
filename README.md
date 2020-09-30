@@ -136,7 +136,8 @@
 ### 55(766) 托普利茨矩阵
 [托普利茨矩阵](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/55.766.%E6%89%98%E6%99%AE%E5%88%A9%E8%8C%A8%E7%9F%A9%E9%98%B5)
 ### 56(840) 矩阵中的幻方(Medium)
-[矩阵中的幻方]()
+[矩阵中的幻方](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/56.840.%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E5%B9%BB%E6%96%B9(Medium))
+
 
 ## 数据结构-字符串
 
