@@ -50,12 +50,22 @@ Note: The length of path between two nodes is represented by the number of edges
 ### 代码
 
 ```C++
-
 class Solution {
 public:
     int diameterOfBinaryTree(TreeNode* root) {
-
+        if(root==NULL) return 0;
+        diameter=1;
+        maxDepth(root);
+        return diameter-1;
     }
+    int maxDepth(TreeNode* root){
+        if(root==NULL) return 0;
+        int l_left=maxDepth(root->left);
+        int l_right=maxDepth(root->right);
+        diameter=max(diameter,l_left+l_right+1);
+        return max(l_left,l_right)+1;
+    }
+private:
+    int diameter;
 };
-
 ```
