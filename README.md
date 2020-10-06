@@ -137,7 +137,8 @@
 [托普利茨矩阵](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/55.766.%E6%89%98%E6%99%AE%E5%88%A9%E8%8C%A8%E7%9F%A9%E9%98%B5)
 ### 56(840) 矩阵中的幻方(Medium)
 [矩阵中的幻方](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/56.840.%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E5%B9%BB%E6%96%B9(Medium))
-
+### 57(64) 最小路径和(Medium)
+[最小路径和](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/57.64.%E6%9C%80%E5%B0%8F%E8%B7%AF%E5%BE%84%E5%92%8C(Medium))
 
 ## 数据结构-字符串
 
@@ -272,6 +273,12 @@
 [统计二叉树中好节点的数目](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/34.1448.%E7%BB%9F%E8%AE%A1%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%AD%E5%A5%BD%E8%8A%82%E7%82%B9%E7%9A%84%E6%95%B0%E7%9B%AE(Medium))
 ### 35(538) 把二叉搜索树转换为累加树
 [把二叉搜索树转换为累加树](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/35.538.%E6%8A%8A%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E8%BD%AC%E6%8D%A2%E4%B8%BA%E7%B4%AF%E5%8A%A0%E6%A0%91)
+### 36(501) 二叉搜索树中的众数
+[二叉搜索树中的众数](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/36.501.%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E4%B8%AD%E7%9A%84%E4%BC%97%E6%95%B0)
+### 37(968) 监控二叉树(Hard)
+[监控二叉树](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/37.968.%E7%9B%91%E6%8E%A7%E4%BA%8C%E5%8F%89%E6%A0%91(Hard))
+### 38(543) 二叉树的直径
+[二叉树的直径]()
 
 ## 数据结构-堆
 
