@@ -280,7 +280,10 @@
 ### 38(543) 二叉树的直径
 [二叉树的直径](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/38.543.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E7%9B%B4%E5%BE%84)
 ### 39(437) 路径总和Ⅲ(Medium)
-[路径总和Ⅲ]()
+[路径总和Ⅲ](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/39.437.%E8%B7%AF%E5%BE%84%E6%80%BB%E5%92%8C%E2%85%A2(Medium))
+### 40(230) 二叉搜索树中第K小的元素(Medium)
+[二叉搜索树中第K小的元素]()
+
 
 ## 数据结构-堆
 
