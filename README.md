@@ -139,6 +139,9 @@
 [矩阵中的幻方](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/56.840.%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E5%B9%BB%E6%96%B9(Medium))
 ### 57(64) 最小路径和(Medium)
 [最小路径和](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/57.64.%E6%9C%80%E5%B0%8F%E8%B7%AF%E5%BE%84%E5%92%8C(Medium))
+### 58(80) 删除排序数组中的重复项(Medium)
+[删除排序数组中的重复项]()
+
 
 ## 数据结构-字符串
 

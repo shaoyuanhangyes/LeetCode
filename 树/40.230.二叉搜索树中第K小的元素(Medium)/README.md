@@ -81,15 +81,9 @@ You may assume k is always valid, 1 ≤ k ≤ BST's total elements.
 
 ## 解题
 
-### 递归解法
+普通解法: 利用二叉搜索树的中序遍历是有序序列的特点 直接返回中序遍历的k-1位置元素
 
-node_pathSum函数负责以root为根的子树共存在多少条符合要求的路径 使用深度递归遍历的思想(先序遍历)
-
-pathSum函数负责控制root是哪一个结点 使用深度递归遍历的思想(先序遍历) 将root是树中每一个结点的情况都考虑到
-
-所以此题递归解法使用了双重dfs递归思想
-
-#### 代码
+### 代码
 
 ```C++
 class Solution {
