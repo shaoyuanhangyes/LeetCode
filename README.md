@@ -141,7 +141,8 @@
 [最小路径和](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/57.64.%E6%9C%80%E5%B0%8F%E8%B7%AF%E5%BE%84%E5%92%8C(Medium))
 ### 58(80) 删除排序数组中的重复项(Medium)
 [删除排序数组中的重复项](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/58.80.%E5%88%A0%E9%99%A4%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E9%A1%B9%E2%85%A1(Medium))
-
+### 59(120) 三角形最小路径和(Medium)
+[三角形最小路径和]()
 
 ## 数据结构-字符串
 
@@ -287,7 +288,7 @@
 ### 40(230) 二叉搜索树中第K小的元素(Medium)
 [二叉搜索树中第K小的元素](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/40.230.%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E4%B8%AD%E7%AC%ACK%E5%B0%8F%E7%9A%84%E5%85%83%E7%B4%A0(Medium))
 # 41(530) 二叉搜索树的最小绝对差(Medium)
-[二叉搜索树的最小绝对差]()
+[二叉搜索树的最小绝对差](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/41.530.%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E6%9C%80%E5%B0%8F%E7%BB%9D%E5%AF%B9%E5%B7%AE)
 
 ## 数据结构-堆
 
