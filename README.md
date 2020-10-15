@@ -142,7 +142,8 @@
 ### 58(80) 删除排序数组中的重复项(Medium)
 [删除排序数组中的重复项](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/58.80.%E5%88%A0%E9%99%A4%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E9%A1%B9%E2%85%A1(Medium))
 ### 59(120) 三角形最小路径和(Medium)
-[三角形最小路径和]()
+[三角形最小路径和](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/59.120.%E4%B8%89%E8%A7%92%E5%BD%A2%E6%9C%80%E5%B0%8F%E8%B7%AF%E5%BE%84%E5%92%8C(Medium))
+
 
 ## 数据结构-字符串
 
