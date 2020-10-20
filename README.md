@@ -288,8 +288,11 @@
 [路径总和Ⅲ](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/39.437.%E8%B7%AF%E5%BE%84%E6%80%BB%E5%92%8C%E2%85%A2(Medium))
 ### 40(230) 二叉搜索树中第K小的元素(Medium)
 [二叉搜索树中第K小的元素](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/40.230.%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E4%B8%AD%E7%AC%ACK%E5%B0%8F%E7%9A%84%E5%85%83%E7%B4%A0(Medium))
-# 41(530) 二叉搜索树的最小绝对差(Medium)
+### 41(530) 二叉搜索树的最小绝对差(Medium)
 [二叉搜索树的最小绝对差](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/41.530.%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E6%9C%80%E5%B0%8F%E7%BB%9D%E5%AF%B9%E5%B7%AE)
+### 42(116) 填充每个节点的下一个右侧节点指针(Medium)
+[填充每个节点的下一个右侧节点指针]()
+
 
 ## 数据结构-堆
 

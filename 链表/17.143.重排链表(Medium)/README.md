@@ -37,7 +37,8 @@ Given 1->2->3->4->5, reorder it to 1->5->2->4->3.
 ## 解题
 
 ### 第一次提交的通过的屎一样的代码
-```bash
+
+```C++
     void reorderList(ListNode *head){
         if(head==NULL||head->next==NULL) return;
         ListNode* slow=head;
@@ -81,7 +82,7 @@ Given 1->2->3->4->5, reorder it to 1->5->2->4->3.
 对代码进行修改 舍弃掉back 直接对 slow->next进行反转 这样 元素为偶数时 两个链表元素相等 元素为奇数时 反转的链表比正序的链表元素小 这样就无序考虑正序链表遍历的时候会溢出的问题
 两个链表相连接 使用一个临时指针temp保存反转链表后续的节点 然后将rL指向的节点连接到两个元素之间  再移动head到rl->next 最后将临时指针temp的信息传递给rL进行下一次循环
 
-```bash
+```C++
 void reorderList(ListNode *head){
         if(head==NULL||head->next==NULL) return;
         ListNode* slow=head;
