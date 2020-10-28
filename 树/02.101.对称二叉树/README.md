@@ -42,7 +42,7 @@ But the following [1,2,2,null,3,null,3] is not
 ```
 `BitDance` `Amazon` `Microsoft` `Adobe` `Apple` `Google` `FaceBook` `Linkedln` `Uber` `HuaWei` `DiDi`
 ## 解题
-```bash
+```C++
 #include <iostream>
 #include <vector>
 #include <queue>
