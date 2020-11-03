@@ -144,7 +144,9 @@
 ### 59(120) 三角形最小路径和(Medium)
 [三角形最小路径和](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/59.120.%E4%B8%89%E8%A7%92%E5%BD%A2%E6%9C%80%E5%B0%8F%E8%B7%AF%E5%BE%84%E5%92%8C(Medium))
 ### 60(1207) 独一无二的出现次数
-[独一无二的出现次数]()
+[独一无二的出现次数](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/60.1207.%E7%8B%AC%E4%B8%80%E6%97%A0%E4%BA%8C%E7%9A%84%E5%87%BA%E7%8E%B0%E6%AC%A1%E6%95%B0)
+### 61(941) 有效的山脉数组
+[有效的山脉数组]()
 
 ## 数据结构-字符串
 
