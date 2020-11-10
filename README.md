@@ -19,9 +19,16 @@
 |337|打家劫舍Ⅲ|House Robber Ⅲ|[打家劫舍Ⅲ(Medium)](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/32.337.%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8D%E2%85%A2(Medium))|
 
 ## 算法-回溯
+
 |题号|名称|English Name|题解|
 |:------:|:------:|:------:|:------:|
 |46|全排列|Permutations|[全排列(Medium)](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/51.46.%E5%85%A8%E6%8E%92%E5%88%97(Medium))|
+
+## VIP收费题目合辑
+
+|题号|名称|English Name|题解|
+|:------:|:------:|:------:|:------:|
+|156|上下翻转二叉树|Binary Tree Upside Down|[]()|
 
 ## 数据结构-数组
 
@@ -146,7 +153,7 @@
 ### 60(1207) 独一无二的出现次数
 [独一无二的出现次数](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/60.1207.%E7%8B%AC%E4%B8%80%E6%97%A0%E4%BA%8C%E7%9A%84%E5%87%BA%E7%8E%B0%E6%AC%A1%E6%95%B0)
 ### 61(941) 有效的山脉数组
-[有效的山脉数组]()
+[有效的山脉数组](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/61.941.%E6%9C%89%E6%95%88%E7%9A%84%E5%B1%B1%E8%84%89%E6%95%B0%E7%BB%84)
 
 ## 数据结构-字符串
 
@@ -294,8 +301,9 @@
 ### 41(530) 二叉搜索树的最小绝对差(Medium)
 [二叉搜索树的最小绝对差](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/41.530.%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E6%9C%80%E5%B0%8F%E7%BB%9D%E5%AF%B9%E5%B7%AE)
 ### 42(116) 填充每个节点的下一个右侧节点指针(Medium)
-[填充每个节点的下一个右侧节点指针]()
-
+[填充每个节点的下一个右侧节点指针](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/42.116.%E5%A1%AB%E5%85%85%E6%AF%8F%E4%B8%AA%E8%8A%82%E7%82%B9%E7%9A%84%E4%B8%8B%E4%B8%80%E4%B8%AA%E5%8F%B3%E4%BE%A7%E8%8A%82%E7%82%B9%E6%8C%87%E9%92%88(Medium))
+### 43(156) 上下翻转二叉树(Medium)
+[上下翻转二叉树]()
 
 ## 数据结构-堆
 
