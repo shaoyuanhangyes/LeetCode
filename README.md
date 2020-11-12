@@ -29,7 +29,8 @@
 |题号|名称|English Name|题解|
 |:------:|:------:|:------:|:------:|
 |156|上下翻转二叉树|Binary Tree Upside Down|[上下翻转二叉树(Medium)](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/43.156.%E4%B8%8A%E4%B8%8B%E7%BF%BB%E8%BD%AC%E4%BA%8C%E5%8F%89%E6%A0%91(Medium)(PlusVip))|
-|255|验证前序遍历序列二叉搜索树|Verify Preorder Sequence in Binary Search Tree|[验证前序遍历序列二叉搜索树(Medium)]()|
+|255|验证前序遍历序列二叉搜索树|Verify Preorder Sequence in Binary Search Tree|[验证前序遍历序列二叉搜索树(Medium)](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/44.255.%E9%AA%8C%E8%AF%81%E5%89%8D%E5%BA%8F%E9%81%8D%E5%8E%86%E5%BA%8F%E5%88%97%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91(Medium)(PlusVip))|
+|285|二叉搜索树中的顺序后继|Inorder Successor in BST|[二叉搜索树中的顺序后继(Medium)]()|
 
 ## 数据结构-数组
 
@@ -306,7 +307,9 @@
 ### 43(156) 上下翻转二叉树(Medium)
 [上下翻转二叉树(Medium)](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/43.156.%E4%B8%8A%E4%B8%8B%E7%BF%BB%E8%BD%AC%E4%BA%8C%E5%8F%89%E6%A0%91(Medium)(PlusVip))
 ### 44(255) 验证前序遍历序列二叉搜索树(Medium)
-[验证前序遍历序列二叉搜索树(Medium)]()
+[验证前序遍历序列二叉搜索树(Medium)](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/44.255.%E9%AA%8C%E8%AF%81%E5%89%8D%E5%BA%8F%E9%81%8D%E5%8E%86%E5%BA%8F%E5%88%97%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91(Medium)(PlusVip))
+### 45(285) 二叉搜索树中的顺序后继(Medium)
+[二叉搜索树中的顺序后继(Medium)]()
 
 ## 数据结构-堆
 
