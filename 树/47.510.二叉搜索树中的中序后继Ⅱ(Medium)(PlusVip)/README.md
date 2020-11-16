@@ -126,6 +126,15 @@ All Nodes will have unique values.
 
 ## 解题
 
+注意题干和函数传参 不能直接访问树 只能从当前结点node入手 能够访问的值只有结点的 `left` `right` `parent`
+
+当前结点node的前驱结点是比node小的最大结点
+
+当前结点node的后驱结点是比node大的最小结点
+
+寻找node的后驱结点 分为两种情况讨论 
+    node有右子树 那么node的后驱结点 应该从node的右子树中向左寻找 即node的右子树中最小的结点
+    node没有右子树 那么node的后驱结点 应该从node的父结点中寻找 直到找到一个结点为successor node的祖宗结点是这个successor结点的左孩子 那么node的后驱结点就是successor
 
 ### 代码
 
@@ -134,7 +143,13 @@ All Nodes will have unique values.
 class Solution {
 public:
     Node* inorderSuccessor(Node* node) {
-        
+        if(node->right){
+            node=node->right;
+            while(node->left) node=node->left;
+            return node;
+        }
+        while(node->parent&&node==node->parent->right) node=node->parent;
+        return node->parent;
     }
 };
 
