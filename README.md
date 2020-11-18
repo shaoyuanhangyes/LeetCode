@@ -33,7 +33,8 @@
 |285|二叉搜索树中的顺序后继|Inorder Successor in BST|[二叉搜索树中的顺序后继(Medium)](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/45.285.%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E4%B8%AD%E7%9A%84%E9%A1%BA%E5%BA%8F%E5%90%8E%E7%BB%A7(Medium)(PlusVip))|
 |426|将二叉搜索树转化为排序的双向链表|Convert Binary Search Tree to Sorted Doubly Linked List|[将二叉搜索树转化为排序的双向链表(Medium)](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/46.426.%E5%B0%86%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E8%BD%AC%E5%8C%96%E4%B8%BA%E6%8E%92%E5%BA%8F%E7%9A%84%E5%8F%8C%E5%90%91%E9%93%BE%E8%A1%A8(Medium)(PlusVip))|
 |510|二叉搜索树中的中序后继Ⅱ|Inorder Successor in BST II|[二叉搜索树中的中序后继Ⅱ(Medium)](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/47.510.%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E4%B8%AD%E7%9A%84%E4%B8%AD%E5%BA%8F%E5%90%8E%E7%BB%A7%E2%85%A1(Medium)(PlusVip))|
-|314|二叉树的垂直遍历|Binary Tree Vertical Order Traversal|[二叉树的垂直遍历(Medium)]()|
+|314|二叉树的垂直遍历|Binary Tree Vertical Order Traversal|[二叉树的垂直遍历(Medium)](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/48.314.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%9E%82%E7%9B%B4%E9%81%8D%E5%8E%86(Medium)(PlusVip))|
+|545|二叉树的边界|Boundary of Binary Tree|[二叉树的边界(Medium)]()|
 
 ## 数据结构-数组
 
@@ -318,7 +319,9 @@
 ### 47(510) 二叉搜索树中的中序后继Ⅱ(Medium)
 [二叉搜索树中的中序后继Ⅱ(Medium)](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/47.510.%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E4%B8%AD%E7%9A%84%E4%B8%AD%E5%BA%8F%E5%90%8E%E7%BB%A7%E2%85%A1(Medium)(PlusVip))
 ### 48(314) 二叉树的垂直遍历(Medium)
-[二叉树的垂直遍历(Medium)]()
+[二叉树的垂直遍历(Medium)](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/48.314.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%9E%82%E7%9B%B4%E9%81%8D%E5%8E%86(Medium)(PlusVip))
+### 49(545) 二叉树的边界(Medium)
+[二叉树的边界(Medium)]()
 
 ## 数据结构-堆
 
