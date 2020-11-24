@@ -1,6 +1,8 @@
 # LeetCode
 
-解决题目的总数: 130/1753
+解决题目的总数: 136/1753
+
+微信公众号: <b>工程师Ruojhen</b>
 
 ## 算法-动态规划
 
@@ -35,8 +37,8 @@
 |510|二叉搜索树中的中序后继Ⅱ|Inorder Successor in BST II|[二叉搜索树中的中序后继Ⅱ(Medium)](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/47.510.%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E4%B8%AD%E7%9A%84%E4%B8%AD%E5%BA%8F%E5%90%8E%E7%BB%A7%E2%85%A1(Medium)(PlusVip))|
 |314|二叉树的垂直遍历|Binary Tree Vertical Order Traversal|[二叉树的垂直遍历(Medium)](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/48.314.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%9E%82%E7%9B%B4%E9%81%8D%E5%8E%86(Medium)(PlusVip))|
 |545|二叉树的边界|Boundary of Binary Tree|[二叉树的边界(Medium)](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/49.545.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E8%BE%B9%E7%95%8C(Medium)(PlusVip))|
-|663|均匀树划分|Equal Tree Partition|[均匀树划分(Medium)]()|
-|1660|纠正二叉树|Correct a Binary Tree|[纠正二叉树(Medium)]()|
+|663|均匀树划分|Equal Tree Partition|[均匀树划分(Medium)](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/50.663.%E5%9D%87%E5%8C%80%E6%A0%91%E5%88%92%E5%88%86(Medium)(PlusVip))|
+|1660|纠正二叉树|Correct a Binary Tree|[纠正二叉树(Medium)](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/51.1660.%E7%BA%A0%E6%AD%A3%E4%BA%8C%E5%8F%89%E6%A0%91(Medium)(PlusVip))|
 
 ## 数据结构-数组
 
@@ -325,9 +327,9 @@
 ### 49(545) 二叉树的边界(Medium)
 [二叉树的边界(Medium)](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/49.545.%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E8%BE%B9%E7%95%8C(Medium)(PlusVip))
 ### 50(663) 均匀树划分(Medium)
-[均匀树划分(Medium)]()
+[均匀树划分(Medium)](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/50.663.%E5%9D%87%E5%8C%80%E6%A0%91%E5%88%92%E5%88%86(Medium)(PlusVip))
 ### 51(1660) 纠正二叉树(Medium)
-[纠正二叉树(Medium)]()
+[纠正二叉树(Medium)](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%A0%91/51.1660.%E7%BA%A0%E6%AD%A3%E4%BA%8C%E5%8F%89%E6%A0%91(Medium)(PlusVip))
 
 
 ## 数据结构-堆
