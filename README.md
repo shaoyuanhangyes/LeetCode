@@ -337,6 +337,11 @@
 ### 1(23)合并K个排序链表(Hard)
 [合并K个排序链表](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E5%A0%86/01.23.%E5%90%88%E5%B9%B6K%E4%B8%AA%E6%8E%92%E5%BA%8F%E9%93%BE%E8%A1%A8(Hard))
 
+## 数据结构-哈希表
+
+### 204 计数质数
+[计数质数]()
+
 ## 数据结构-线段树
 
 ### 1(307) 区域和检索 - 数组可修改
