@@ -6,17 +6,17 @@ struct ListNode{
     ListNode *next;
     ListNode(int x):val(x),next(NULL){}
 };
-ListNode* createNodeList(const vector<int> & vec){//ºó²å·¨´´½¨Á´±í
-    ListNode* prev = new ListNode(vec[0]);//prevÊ¼ÖÕÖ¸Ïò±íÎ²Ö¸Õë
+ListNode* createNodeList(const vector<int> & vec){//åæ’æ³•åˆ›å»ºé“¾è¡¨
+    ListNode* prev = new ListNode(vec[0]);//prevå§‹ç»ˆæŒ‡å‘è¡¨å°¾æŒ‡é’ˆ
     ListNode* prevHead = prev;
     for (int i = 1; i < vec.size(); i ++) {
         ListNode* next_node = new ListNode(vec[i]);
         prev -> next = next_node;
         prev = next_node;
     }
-    return prevHead;//prevHeadÊ¼ÖÕÖ¸ÏòµÚÒ»¸öÔªËØ
+    return prevHead;//prevHeadå§‹ç»ˆæŒ‡å‘ç¬¬ä¸€ä¸ªå…ƒç´ 
 }
-void ShowList(ListNode *l){//±éÀúÊä³öÁ´±í
+void ShowList(ListNode *l){//éå†è¾“å‡ºé“¾è¡¨
     ListNode *p=l;
     while(p){
         cout<<p->val<<" ";
@@ -28,10 +28,10 @@ class Solution{
 public:
     ListNode* reverseList(ListNode* head) {
         if(head==NULL||head->next==NULL) return head;
-        ListNode* res=reverseList(head->next);//ÒÔ{1,2,3,4,5}ÎªÀı
-        head->next->next=head;//reverseµİ¹é´«²Î µ½5·µ»Ø5½áµã resÖ¸Ïò5 »Øµ½4ÕâÒ»²ã headÖ¸Ïò4 head->next->next=headÊÇ4->next->next
-        //ÊÇ4->next->next=4¼´5->next=4
-        head->next=NULL;//È»ºó4->next=NULL¶ÏÁ´ ÔÙ½«5-4·µ»Ø¸øÉÏÒ»²ãÁ¬ÉÏ3 ÔÚÁ¬ÉÏ2 1 ·´×ª³É¹¦
+        ListNode* res=reverseList(head->next);//ä»¥{1,2,3,4,5}ä¸ºä¾‹
+        head->next->next=head;//reverseé€’å½’ä¼ å‚ åˆ°5è¿”å›5ç»“ç‚¹ resæŒ‡å‘5 å›åˆ°4è¿™ä¸€å±‚ headæŒ‡å‘4 head->next->next=headæ˜¯4->next->next
+        //æ˜¯4->next->next=4å³5->next=4
+        head->next=NULL;//ç„¶å4->next=NULLæ–­é“¾ å†å°†5-4è¿”å›ç»™ä¸Šä¸€å±‚è¿ä¸Š3 åœ¨è¿ä¸Š2 1 åè½¬æˆåŠŸ
         return res;
     }
 };
@@ -39,7 +39,7 @@ int main(){
     vector<int> m1={1,2,3,4,5};
     ListNode *l1=createNodeList(m1);
     Solution answer;
-    ListNode *l2=answer.reverseList(l1);//l2Îªl1ÔªËØ·­×ªµÄÁ´±í
+    ListNode *l2=answer.reverseList(l1);//l2ä¸ºl1å…ƒç´ ç¿»è½¬çš„é“¾è¡¨
     ShowList(l2);
     return 0;
 }
