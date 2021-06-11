@@ -27,6 +27,13 @@
 |:------:|:------:|:------:|:------:|
 |46|全排列|Permutations|[全排列(Medium)](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/51.46.%E5%85%A8%E6%8E%92%E5%88%97(Medium))|
 
+## 设计 
+
+|题号|名称|English Name|题解|
+|:------:|:------:|:------:|:------:|
+|146|LRU缓存机制|LRU Cache|[LRU缓存机制(Medium)]()|
+
+
 ## VIP收费题目合辑
 
 |题号|名称|English Name|题解|
