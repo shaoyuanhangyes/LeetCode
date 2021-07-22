@@ -31,7 +31,8 @@
 
 |题号|名称|English Name|题解|
 |:------:|:------:|:------:|:------:|
-|146|LRU缓存机制|LRU Cache|[LRU缓存机制(Medium)]()|
+|146|LRU缓存机制|LRU Cache|[LRU缓存机制(Medium)](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E8%AE%BE%E8%AE%A1/01.146.LRU%E7%BC%93%E5%AD%98%E6%9C%BA%E5%88%B6(Medium))|
+|460|LFU缓存|LFU Cache|[LFU缓存(Hard)]()|
 
 
 ## VIP收费题目合辑
