@@ -1,6 +1,6 @@
 # LeetCode
 
-解决题目的总数: 136/1753
+解决题目的总数: 137/1753
 
 微信公众号: <b>工程师Ruojhen</b>
 
@@ -173,6 +173,8 @@
 [独一无二的出现次数](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/60.1207.%E7%8B%AC%E4%B8%80%E6%97%A0%E4%BA%8C%E7%9A%84%E5%87%BA%E7%8E%B0%E6%AC%A1%E6%95%B0)
 ### 61(941) 有效的山脉数组
 [有效的山脉数组](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/61.941.%E6%9C%89%E6%95%88%E7%9A%84%E5%B1%B1%E8%84%89%E6%95%B0%E7%BB%84)
+### 62(33) 搜索旋转排序数组(Medium)
+[搜索旋转排序数组]()
 
 ## 数据结构-字符串
 
@@ -349,7 +351,13 @@
 ## 数据结构-哈希表
 
 ### 204 计数质数
-[计数质数]()
+[计数质数](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E5%93%88%E5%B8%8C%E8%A1%A8/204.%E8%AE%A1%E6%95%B0%E8%B4%A8%E6%95%B0)
+
+
+## 字符串
+
+### 4(1447)最简分数(Medium)
+[最简分数](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E5%AD%97%E7%AC%A6%E4%B8%B2/04.1447.%E6%9C%80%E7%AE%80%E5%88%86%E6%95%B0(Medium))
 
 ## 数据结构-线段树
 
