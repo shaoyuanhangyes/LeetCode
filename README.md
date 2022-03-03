@@ -174,7 +174,7 @@
 ### 61(941) 有效的山脉数组
 [有效的山脉数组](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/61.941.%E6%9C%89%E6%95%88%E7%9A%84%E5%B1%B1%E8%84%89%E6%95%B0%E7%BB%84)
 ### 62(33) 搜索旋转排序数组(Medium)
-[搜索旋转排序数组]()
+[搜索旋转排序数组](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/62.33.%E6%90%9C%E7%B4%A2%E6%97%8B%E8%BD%AC%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84(Medium))
 
 ## 数据结构-字符串
 
@@ -345,7 +345,7 @@
 
 ## 数据结构-堆
 
-### 1(23)合并K个排序链表(Hard)
+### 1(23) 合并K个排序链表(Hard)
 [合并K个排序链表](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E5%A0%86/01.23.%E5%90%88%E5%B9%B6K%E4%B8%AA%E6%8E%92%E5%BA%8F%E9%93%BE%E8%A1%A8(Hard))
 
 ## 数据结构-哈希表
@@ -356,7 +356,7 @@
 
 ## 字符串
 
-### 4(1447)最简分数(Medium)
+### 4(1447) 最简分数(Medium)
 [最简分数](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E5%AD%97%E7%AC%A6%E4%B8%B2/04.1447.%E6%9C%80%E7%AE%80%E5%88%86%E6%95%B0(Medium))
 
 ## 数据结构-线段树
