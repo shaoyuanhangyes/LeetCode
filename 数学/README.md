@@ -24,7 +24,7 @@ After solving some topics with different data structure, there are a lot of ques
 [计数质数](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E5%93%88%E5%B8%8C%E8%A1%A8/204.%E8%AE%A1%E6%95%B0%E8%B4%A8%E6%95%B0)
 
 ### 258 各位相加
-[各位相加]()
+[各位相加](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E5%AD%A6/258.%E5%90%84%E4%BD%8D%E7%9B%B8%E5%8A%A0)
 
 ### 268 缺失数字
 [缺失数字](https://github.com/shaoyuanhangyes/LeetCode/tree/master/%E6%95%B0%E7%BB%84/30.268.%E7%BC%BA%E5%A4%B1%E6%95%B0%E5%AD%97)
